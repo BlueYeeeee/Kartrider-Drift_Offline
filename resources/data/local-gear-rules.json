@@ -1,0 +1,237 @@
+{
+  "source": "KtKartGearSetDef.uexp",
+  "sha256": "4d3b5b8e62bd8aae5bd83a1528f185dbc45986354b45f82ccd90152005e5f534",
+  "rules": {
+    "TransAccelFactor": {
+      "tunable": false,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "DriftEscapeForce": {
+      "tunable": false,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "BoosterTime": {
+      "tunable": false,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "DriftMaxGauge": {
+      "tunable": false,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "CharacterBonus": {
+      "tunable": true,
+      "values": [
+        0,
+        3
+      ]
+    },
+    "AutoUseBoost": {
+      "tunable": true,
+      "values": [
+        0,
+        3
+      ]
+    },
+    "DriftBoostFactorSpeed": {
+      "tunable": true,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "ForceSlipEscapeFactor": {
+      "tunable": true,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "DriftGaugePreservePercent": {
+      "tunable": true,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "BoosterAccel": {
+      "tunable": true,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "DraftMulAccelFactor": {
+      "tunable": true,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "ReductionTimeBalloonRespawn": {
+      "tunable": true,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "ReductionCountWaterStroke": {
+      "tunable": true,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "AdditionalItemChangerCount": {
+      "tunable": true,
+      "values": [
+        0,
+        5
+      ]
+    },
+    "BananaBlockProbability": {
+      "tunable": true,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "ReductionTimeSirenSlip": {
+      "tunable": true,
+      "values": [
+        0,
+        8
+      ]
+    },
+    "ReductionTimeMagnetForce": {
+      "tunable": true,
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  }
+}

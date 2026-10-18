@@ -1,0 +1,918 @@
+{
+  "source": "out\\dyndata\\BalloonEffectSetDef.bin",
+  "sha256": "1385f56d6442119a416f32dd3fc93f6bf4009ba2ca4531ff6d7bfc9100059c04",
+  "definition": {
+    "effect": {
+      "BoosterIncrease": {
+        "titleStringKey": "Balloon_Effect2_Title",
+        "descStringKey": "Balloon_Effect2_Desc",
+        "raceType": "Speed",
+        "grade": [
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 35
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_uncommon"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 60
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_rare"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 85
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_unique"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 120
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_legendary"
+          }
+        ]
+      },
+      "BoosterIncrease01": {
+        "titleStringKey": "Balloon_BoosterIncrease1_Title",
+        "descStringKey": "Balloon_BoosterIncrease1_Desc",
+        "raceType": "speed",
+        "grade": [
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 85
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_unique"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 85
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_unique"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 85
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_unique"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 85
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_unique"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 85
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_unique"
+          }
+        ]
+      },
+      "BoosterIncrease02": {
+        "titleStringKey": "Balloon_BoosterIncrease2_Title",
+        "descStringKey": "Balloon_BoosterIncrease2_Desc",
+        "raceType": "speed",
+        "grade": [
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 120
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_legendary"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 120
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_legendary"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 120
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_legendary"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 120
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_legendary"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 120
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_legendary"
+          }
+        ]
+      },
+      "BoosterIncrease2": {
+        "titleStringKey": "Balloon_Effect2_Title",
+        "descStringKey": "Balloon_Effect2_Desc",
+        "raceType": "Speed",
+        "grade": [
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 120
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 120
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_uncommon"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 120
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_rare"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 120
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_unique"
+          },
+          {
+            "param": {},
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 120
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_legendary"
+          }
+        ]
+      },
+      "DefenseMissile": {
+        "titleStringKey": "Balloon_Effect1_Title",
+        "descStringKey": "Balloon_Effect1_Desc",
+        "raceType": "Item",
+        "grade": [
+          {
+            "param": {
+              "bananaSlip": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          }
+        ]
+      },
+      "DefenseMissile01": {
+        "titleStringKey": "Balloon_DefenseMissile1_Title",
+        "descStringKey": "Balloon_DefenseMissile1_Desc",
+        "raceType": "item",
+        "grade": [
+          {
+            "param": {
+              "bananaSlip": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          }
+        ]
+      },
+      "DefenseMissile03": {
+        "titleStringKey": "Balloon_DefenseMissile2_Title",
+        "descStringKey": "Balloon_DefenseMissile2_Desc",
+        "raceType": "item",
+        "grade": [
+          {
+            "param": {
+              "bananaSlip": 1.600000023841858
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 1.600000023841858
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 1.600000023841858
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 1.600000023841858
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 1.600000023841858
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          }
+        ]
+      },
+      "DefenseMissile05": {
+        "titleStringKey": "Balloon_DefenseMissile3_Title",
+        "descStringKey": "Balloon_DefenseMissile3_Desc",
+        "raceType": "item",
+        "grade": [
+          {
+            "param": {
+              "bananaSlip": 1.200000047683716
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 1.200000047683716
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 1.200000047683716
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 1.200000047683716
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bananaSlip": 1.200000047683716
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          }
+        ]
+      },
+      "DefenseThunderboltUfo": {
+        "titleStringKey": "Balloon_DefenseThunderboltUfo1_Title",
+        "descStringKey": "Balloon_DefenseThunderboltUfo1_Desc",
+        "raceType": "Item",
+        "grade": [
+          {
+            "param": {
+              "ThunderboltTimeReduction": 0,
+              "UfoTimeReduction": 0
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "ThunderboltTimeReduction": 0,
+              "UfoTimeReduction": 0
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "ThunderboltTimeReduction": 0,
+              "UfoTimeReduction": 0
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "ThunderboltTimeReduction": 0.2000000029802322,
+              "UfoTimeReduction": 0.300000011920929
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "ThunderboltTimeReduction": 0.2000000029802322,
+              "UfoTimeReduction": 0.300000011920929
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          }
+        ]
+      },
+      "DefenseThunderboltUfo01": {
+        "titleStringKey": "Balloon_DefenseThunderboltUfo1_Title",
+        "descStringKey": "Balloon_DefenseThunderboltUfo1_Desc",
+        "raceType": "item",
+        "grade": [
+          {
+            "param": {
+              "ThunderboltTimeReduction": 0.2000000029802322,
+              "UfoTimeReduction": 0.300000011920929
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "ThunderboltTimeReduction": 0.2000000029802322,
+              "UfoTimeReduction": 0.300000011920929
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "ThunderboltTimeReduction": 0.2000000029802322,
+              "UfoTimeReduction": 0.300000011920929
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "ThunderboltTimeReduction": 0.2000000029802322,
+              "UfoTimeReduction": 0.300000011920929
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "ThunderboltTimeReduction": 0.2000000029802322,
+              "UfoTimeReduction": 0.300000011920929
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          }
+        ]
+      },
+      "FastEscape": {
+        "titleStringKey": "Balloon_Effect3_Title",
+        "descStringKey": "Balloon_Effect3_Desc",
+        "raceType": "Item",
+        "grade": [
+          {
+            "param": {
+              "bombinputCountPC": 10,
+              "flyinputCountPC": 6
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bombinputCountPC": 10,
+              "flyinputCountPC": 6
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "bombinputCountPC": 7,
+              "flyinputCountPC": 4
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": "Balloon_Effect3_Figure_rare"
+          },
+          {
+            "param": {
+              "bombinputCountPC": 6,
+              "flyinputCountPC": 3
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": "Balloon_Effect3_Figure_unique"
+          },
+          {
+            "param": {
+              "bombinputCountPC": 5,
+              "flyinputCountPC": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": "Balloon_Effect2_Figure_legendary"
+          }
+        ]
+      },
+      "FastEscape01": {
+        "titleStringKey": "Balloon_FastEscape1_Title",
+        "descStringKey": "Balloon_FastEscape1_Desc",
+        "raceType": "item",
+        "grade": [
+          {
+            "param": {
+              "bombinputCountPC": 6,
+              "flyinputCountPC": 3
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": "Balloon_Effect3_Figure_unique"
+          },
+          {
+            "param": {
+              "bombinputCountPC": 6,
+              "flyinputCountPC": 3
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": "Balloon_Effect3_Figure_unique"
+          },
+          {
+            "param": {
+              "bombinputCountPC": 6,
+              "flyinputCountPC": 3
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": "Balloon_Effect3_Figure_unique"
+          },
+          {
+            "param": {
+              "bombinputCountPC": 6,
+              "flyinputCountPC": 3
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": "Balloon_Effect3_Figure_unique"
+          },
+          {
+            "param": {
+              "bombinputCountPC": 6,
+              "flyinputCountPC": 3
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": "Balloon_Effect3_Figure_unique"
+          }
+        ]
+      },
+      "MissileDecrease04": {
+        "titleStringKey": "Balloon_MissileDecrease3_Title",
+        "descStringKey": "Balloon_MissileDecrease3_Desc",
+        "raceType": "item",
+        "grade": [
+          {
+            "param": {
+              "QuickLanding": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "QuickLanding": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "QuickLanding": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "QuickLanding": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "QuickLanding": 2
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          }
+        ]
+      },
+      "MissileDecrease1": {
+        "titleStringKey": "Balloon_MissileDecrease1_Title",
+        "descStringKey": "Balloon_MissileDecrease1_Desc",
+        "raceType": "item",
+        "grade": [
+          {
+            "param": {
+              "QuickLanding": 4
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "QuickLanding": 4
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "QuickLanding": 4
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "QuickLanding": 4
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "QuickLanding": 4
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          }
+        ]
+      },
+      "MissileDecrease2": {
+        "titleStringKey": "Balloon_MissileDecrease2_Title",
+        "descStringKey": "Balloon_MissileDecrease2_Desc",
+        "raceType": "item",
+        "grade": [
+          {
+            "param": {
+              "QuickLanding": 3
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "QuickLanding": 3
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "QuickLanding": 3
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "QuickLanding": 3
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          },
+          {
+            "param": {
+              "QuickLanding": 3
+            },
+            "bodyParam": {
+              "forwardAccelForce": 0,
+              "backwardAccelForce": 0,
+              "chargeBoostBySpeed": 0
+            },
+            "figureStringKey": ""
+          }
+        ]
+      }
+    }
+  }
+}

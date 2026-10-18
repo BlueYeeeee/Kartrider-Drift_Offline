@@ -1,0 +1,12 @@
+*.exe
+*.dll
+*.sqlite3*
+LocalData.zip
+local-data/
+backups/
+cache/
+logs/
+runtime/
+settings.json
+last-run.json
+*.zip

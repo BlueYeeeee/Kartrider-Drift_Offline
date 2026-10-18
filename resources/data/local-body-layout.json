@@ -1,0 +1,398 @@
+[
+  {
+    "name": "Mass",
+    "offset": 0,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "ForwardAccelForce",
+    "offset": 4,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DriftEscapeForce",
+    "offset": 8,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "BackwardAccelForce",
+    "offset": 12,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "GripBrake",
+    "offset": 16,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "SlipBrake",
+    "offset": 20,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "UseTransformBooster",
+    "offset": 24,
+    "size": 1,
+    "type": "bool"
+  },
+  {
+    "name": "TransAccelFactor",
+    "offset": 28,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "BoostAccelFactor",
+    "offset": 32,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "NormalBoosterTime",
+    "offset": 36,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "TeamBoosterTime",
+    "offset": 40,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "AnimalBoosterTime",
+    "offset": 44,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "StartBoosterTime",
+    "offset": 48,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "StartBoosterTimeItem",
+    "offset": 52,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "StartBoosterTimeSpeed",
+    "offset": 56,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "StartForwardAccelFactor",
+    "offset": 60,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "StartForwardAccelFactorItem",
+    "offset": 64,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "StartForwardAccelFactorSpeed",
+    "offset": 68,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "MaxSteerDeg",
+    "offset": 72,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "SteerConstraint",
+    "offset": 76,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "FrontGripFactor",
+    "offset": 80,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "RearGripFactor",
+    "offset": 84,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DriftTrigFactor",
+    "offset": 88,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DriftTrigTime",
+    "offset": 92,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DriftSlipFactor",
+    "offset": 96,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "CornerDrawFactor",
+    "offset": 100,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DriftLeanFactor",
+    "offset": 104,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "SteerLeanFactor",
+    "offset": 108,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "ForceSlipEscapeFactor",
+    "offset": 112,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DriftMaxGauge",
+    "offset": 116,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DriftGaugePreservePercent",
+    "offset": 120,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "AirFriction",
+    "offset": 124,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DragFactor",
+    "offset": 128,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "AntiCollideBalance",
+    "offset": 132,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DraftMulAccelFactor",
+    "offset": 136,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DraftTick",
+    "offset": 140,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DraftChargeTime",
+    "offset": 144,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DriftBoostMulAccelFactor",
+    "offset": 148,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DriftBoostTick",
+    "offset": 152,
+    "size": 4,
+    "type": "int32"
+  },
+  {
+    "name": "ChargeBoostBySpeed",
+    "offset": 156,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "bUseExtendedAfterBooster",
+    "offset": 160,
+    "size": 1,
+    "type": "bool"
+  },
+  {
+    "name": "BoostAccelFactorOnlyItem",
+    "offset": 164,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "EvadeForce",
+    "offset": 168,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "bMotorCycleType",
+    "offset": 172,
+    "size": 1,
+    "type": "bool"
+  },
+  {
+    "name": "SpeedSlotCapacity",
+    "offset": 176,
+    "size": 4,
+    "type": "int32"
+  },
+  {
+    "name": "ItemSlotCapacity",
+    "offset": 180,
+    "size": 4,
+    "type": "int32"
+  },
+  {
+    "name": "SpecialSlotCapacity",
+    "offset": 184,
+    "size": 4,
+    "type": "int32"
+  },
+  {
+    "name": "AutoChargeLowSpeed",
+    "offset": 188,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "bTransformAutoCharge",
+    "offset": 192,
+    "size": 1,
+    "type": "bool"
+  },
+  {
+    "name": "DescEngineGrade",
+    "offset": 196,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DescBalance",
+    "offset": 200,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DescStability",
+    "offset": 204,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DescEnchantCap",
+    "offset": 208,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DescCornering",
+    "offset": 212,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "TransformTime",
+    "offset": 216,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "bCharacterBonus",
+    "offset": 220,
+    "size": 1,
+    "type": "bool"
+  },
+  {
+    "name": "bAutoUseBoost",
+    "offset": 221,
+    "size": 1,
+    "type": "bool"
+  },
+  {
+    "name": "DriftBoostMulAccelFactorSpeed",
+    "offset": 224,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "DriftBoostTickSpeed",
+    "offset": 228,
+    "size": 4,
+    "type": "uint32"
+  },
+  {
+    "name": "ReductionTimeBalloonRespawn",
+    "offset": 232,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "ReductionCountWaterStroke",
+    "offset": 236,
+    "size": 4,
+    "type": "uint32"
+  },
+  {
+    "name": "AdditionalItemChangerCount",
+    "offset": 240,
+    "size": 4,
+    "type": "uint32"
+  },
+  {
+    "name": "BananaBlockProbability",
+    "offset": 244,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "ReductionTimeSirenSlip",
+    "offset": 248,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "ReductionTimeMagnetForce",
+    "offset": 252,
+    "size": 4,
+    "type": "float32"
+  },
+  {
+    "name": "EngineParam",
+    "offset": 256,
+    "size": 1,
+    "type": "struct"
+  }
+]

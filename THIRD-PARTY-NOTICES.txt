@@ -1,0 +1,5 @@
+Frida inject 17.24.0 Windows x86_64: https://github.com/frida/frida/releases/tag/17.24.0
+Source: https://github.com/frida/frida-core/tree/17.24.0
+License: frida-COPYING.txt. Native helper SHA256: 19a14d99f785f5942f68e651d1885323aef7e618723d1e75512274b3d2827843
+Windows .NET Framework and winsqlite3 are system components, not bundled.
+This package contains no game client. Launcher source and anonymous resources are in this repository.

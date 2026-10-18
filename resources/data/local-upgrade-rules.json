@@ -1,0 +1,115 @@
+{
+  "source": "out\\launcher-audit\\gear-resources\\upgrade.json",
+  "sha256": "2092aebe332942e307ea06ca4f223875d8ad70d15ad73fec1eebb267569d8012",
+  "gradeEnumRva": "0x553d5d0",
+  "grades": {
+    "EKtItemGrade::Common": 0,
+    "EKtItemGrade::Uncommon": 1,
+    "EKtItemGrade::Rare": 2,
+    "EKtItemGrade::Epic": 3,
+    "EKtItemGrade::Legendary": 4
+  },
+  "definition": {
+    "UnupgradableKart": [
+      "Kart:401000012"
+    ],
+    "PcRoomGearSpeedParamOrder": [
+      "ForceSlipEscapeFactor",
+      "DriftBoostFactorSpeed"
+    ],
+    "PcRoomGearItemParamOrder": [
+      "BoosterAccel",
+      "ReductionTimeMagnetForce"
+    ],
+    "MaxGrade": "EKtItemGrade::Epic",
+    "kartUpgradeDefVector": [
+      {
+        "grade": "EKtItemGrade::Common",
+        "maxLevel": 0,
+        "upgradeInfo": {
+          "gradeGearCount": 5,
+          "levelGearCountVector": [],
+          "gearResetCost": 5000
+        }
+      },
+      {
+        "grade": "EKtItemGrade::Uncommon",
+        "maxLevel": 0,
+        "upgradeInfo": {
+          "gradeGearCount": 7,
+          "levelGearCountVector": [],
+          "gearResetCost": 5000
+        }
+      },
+      {
+        "grade": "EKtItemGrade::Rare",
+        "maxLevel": 0,
+        "upgradeInfo": {
+          "gradeGearCount": 9,
+          "levelGearCountVector": [],
+          "gearResetCost": 5000
+        }
+      },
+      {
+        "grade": "EKtItemGrade::Epic",
+        "maxLevel": 0,
+        "upgradeInfo": {
+          "gradeGearCount": 11,
+          "levelGearCountVector": [],
+          "gearResetCost": 5000
+        }
+      },
+      {
+        "grade": "EKtItemGrade::Legendary",
+        "maxLevel": 5,
+        "upgradeInfo": {
+          "gradeGearCount": 13,
+          "levelGearCountVector": [],
+          "gearResetCost": 5000
+        }
+      }
+    ],
+    "kartUpgradeDefaultGearVector": [
+      {
+        "defaults": {
+          "TransAccelFactor": -9999,
+          "DriftEscapeForce": -9999,
+          "BoosterTime": -9999,
+          "DriftMaxGauge": -9999,
+          "CharacterBonus": 0,
+          "AutoUseBoost": 0,
+          "ForceSlipEscapeFactor": 0,
+          "DriftGaugePreservePercent": 0,
+          "BoosterAccel": 0,
+          "DraftMulAccelFactor": 0,
+          "DriftBoostFactorSpeed": 0,
+          "ReductionTimeBalloonRespawn": 0,
+          "ReductionCountWaterStroke": 0,
+          "AdditionalItemChangerCount": 0,
+          "BananaBlockProbability": 0,
+          "ReductionTimeSirenSlip": 0,
+          "ReductionTimeMagnetForce": 0
+        },
+        "gearLimit": {
+          "TransAccelFactor": 5,
+          "DriftEscapeForce": 5,
+          "BoosterTime": 5,
+          "DriftMaxGauge": 5,
+          "CharacterBonus": 1,
+          "AutoUseBoost": 1,
+          "ForceSlipEscapeFactor": 10,
+          "DriftGaugePreservePercent": 5,
+          "BoosterAccel": 10,
+          "DraftMulAccelFactor": 10,
+          "DriftBoostFactorSpeed": 10,
+          "ReductionTimeBalloonRespawn": 10,
+          "ReductionCountWaterStroke": 10,
+          "AdditionalItemChangerCount": 1,
+          "BananaBlockProbability": 10,
+          "ReductionTimeSirenSlip": 1,
+          "ReductionTimeMagnetForce": 10
+        }
+      }
+    ]
+  }
+}

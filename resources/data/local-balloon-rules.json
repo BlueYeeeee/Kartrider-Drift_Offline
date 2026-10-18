@@ -1,0 +1,3619 @@
+{
+  "source": "out\\dyndata\\BalloonSetDef.bin",
+  "sha256": "da458fbfdd0e68a1c4ea1c3ed8526cbe022fc57ccb38a8ecac5e153b95e05afd",
+  "definition": {
+    "maxGrade": 3,
+    "balloonDef": {
+      "RC:100010000001": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000002": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000003": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000004": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000005": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000006": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "DefenseThunderboltUfo01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000007": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000008": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000009": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000011": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "BoosterIncrease01",
+              "DefenseThunderboltUfo01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000012": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000013": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000014": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "BoosterIncrease01",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000015": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000016": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000017": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000018": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease2"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000019": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000020": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000022": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000024": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000025": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000026": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000027": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000029": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000030": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000031": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000033": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000034": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000035": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000036": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000038": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000039": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000040": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000042": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000043": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000044": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile05",
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000045": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000046": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000048": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000049": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000050": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000051": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000052": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000053": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000054": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000055": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000056": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000057": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000058": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "BoosterIncrease01",
+              "DefenseThunderboltUfo01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000059": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000060": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000061": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000062": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile03",
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000063": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease2",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000064": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000065": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000066": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000067": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease2",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000069": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000070": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000071": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000072": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000073": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000074": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000078": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease04",
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000079": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000080": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000081": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease2",
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000082": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000083": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000084": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000085": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000086": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000087": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000089": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000090": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000091": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000092": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000093": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000094": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000095": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000096": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000097": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000098": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000099": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000100": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000101": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000103": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000104": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000105": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000106": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000107": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000108": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000109": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000110": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000111": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000112": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000113": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000114": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000115": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000116": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000117": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000118": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000119": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000120": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000121": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000122": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000123": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000124": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000125": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000126": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000127": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000128": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000129": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000130": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "BoosterIncrease01",
+              "DefenseThunderboltUfo01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000131": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease2",
+              "BoosterIncrease01",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000132": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease2",
+              "BoosterIncrease01",
+              "DefenseThunderboltUfo01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000133": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "BoosterIncrease02",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000134": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "BoosterIncrease02",
+              "DefenseThunderboltUfo01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000135": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "BoosterIncrease02",
+              "DefenseThunderboltUfo01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000136": {
+        "chargeCost": 30,
+        "chargeMax": 1000,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile"
+            ],
+            "cost": 0
+          },
+          {
+            "effect": [
+              "BoosterIncrease"
+            ],
+            "cost": 500
+          },
+          {
+            "effect": [
+              "FastEscape"
+            ],
+            "cost": 1000
+          },
+          {
+            "effect": [
+              "DefenseThunderboltUfo"
+            ],
+            "cost": 1500
+          }
+        ]
+      },
+      "RC:100010000137": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000138": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "BoosterIncrease02",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000139": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000140": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "BoosterIncrease02",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000141": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease2",
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000144": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "DefenseThunderboltUfo01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000145": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "BoosterIncrease02",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000146": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000147": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000148": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "BoosterIncrease02",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000149": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile03",
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000150": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile03",
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000151": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000152": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000153": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000154": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "DefenseThunderboltUfo01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000155": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "BoosterIncrease01",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000156": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000157": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease2"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000158": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease1",
+              "DefenseThunderboltUfo01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000159": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000160": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000161": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000162": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile01",
+              "FastEscape01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000164": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease2",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000165": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease04",
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000166": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease2",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000167": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease2",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000168": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease04",
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000169": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "DefenseMissile03",
+              "BoosterIncrease02"
+            ],
+            "cost": 0
+          }
+        ]
+      },
+      "RC:100010000170": {
+        "chargeCost": 0,
+        "chargeMax": 0,
+        "grade": [
+          {
+            "effect": [
+              "MissileDecrease2",
+              "BoosterIncrease01"
+            ],
+            "cost": 0
+          }
+        ]
+      }
+    },
+    "balloonItem": {}
+  }
+}

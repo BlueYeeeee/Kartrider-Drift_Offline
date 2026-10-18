@@ -1,0 +1,3384 @@
+{
+  "source": "/Game/DataTable/Def/KtCostumeAttrSetDef",
+  "sha256": "ed3b9a92878ecb868f2d6f65947f8f7ee0156087c7cce0efb0a9ca81ac6a4f89",
+  "defaults": {
+    "Costume:201000001": {
+      "bonus": "rp_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000001": {
+      "bonus": "lucci_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000001": {
+      "bonus": "skillpoint_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000001": {
+      "bonus": "skillpoint_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:210000001": {
+      "bonus": "lucci_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:212000001": {
+      "bonus": "rp_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:213000001": {
+      "bonus": "rp_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:214000001": {
+      "bonus": "lucci_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:215000001": {
+      "bonus": "skillpoint_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:216000001": {
+      "bonus": "skillpoint_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:217000001": {
+      "bonus": "lucci_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:218000001": {
+      "bonus": "rp_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:221000001": {
+      "bonus": "rp_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:222000001": {
+      "bonus": "lucci_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:223000001": {
+      "bonus": "skillpoint_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:240000001": {
+      "bonus": "lucci_20",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000016": {
+      "bonus": "rp_50",
+      "itemSkill": "Jump_Rare_top",
+      "speed": "WKC_3_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000028": {
+      "bonus": "lucci_50",
+      "itemSkill": "Jump_Rare_top",
+      "speed": "SRB_4_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000008": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "Bowling_Rare_bottom",
+      "speed": "village_3_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000009": {
+      "bonus": "rp_50",
+      "itemSkill": "Bowling_Rare_top",
+      "speed": "tomb_3_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000010": {
+      "bonus": "lucci_50",
+      "itemSkill": "Bowling_Rare_top",
+      "speed": "SNU_3_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000003": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "BoosterZone_Rare_top",
+      "speed": "tomb_4_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000008": {
+      "bonus": "rp_50",
+      "itemSkill": "BoosterZone_Rare_bottom",
+      "speed": "WKC_2_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000021": {
+      "bonus": "rp_70",
+      "itemSkill": "BoosterZone_Epic",
+      "speed": "factory_5_transAccelFactor_1",
+      "support": "teambooster_time_1",
+      "maskCostumeId": ""
+    },
+    "Costume:204000001": {
+      "bonus": "lucci_50",
+      "itemSkill": "Revenge_Rare_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:205000001": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "Butterfly_Rare_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:206000004": {
+      "bonus": "rp_70",
+      "itemSkill": "TargetBooster_Legendary_TargetSlowDrag_100",
+      "speed": "",
+      "support": "start_accel_1",
+      "maskCostumeId": ""
+    },
+    "Costume:206000010": {
+      "bonus": "rp_50",
+      "itemSkill": "TargetBooster_Rare_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:206000011": {
+      "bonus": "lucci_70",
+      "itemSkill": "TargetBooster_Legendary_TargetBoosterAdditionalTime_4",
+      "speed": "",
+      "support": "steer_1",
+      "maskCostumeId": ""
+    },
+    "Costume:209000007": {
+      "bonus": "rp_100",
+      "itemSkill": "GainBooster_Legendary9",
+      "speed": "village_2_transAccelFactor_1",
+      "support": "itemchanger_1",
+      "maskCostumeId": ""
+    },
+    "Costume:210000005": {
+      "bonus": "lucci_100",
+      "itemSkill": "CoolTimeGetItem_Legendary",
+      "speed": "village_2_driftEscapeForce_1",
+      "support": "itemchanger_1",
+      "maskCostumeId": ""
+    },
+    "Costume:206000012": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "TargetBooster_Rare_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:207000007": {
+      "bonus": "lucci_50",
+      "itemSkill": "BouncyBall_Rare_top",
+      "speed": "ice_4_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:208000003": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "IceZone_Rare_middle",
+      "speed": "ice_2_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:208000005": {
+      "bonus": "rp_50",
+      "itemSkill": "IceZone_Rare_top",
+      "speed": "ice_4_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:208000009": {
+      "bonus": "lucci_50",
+      "itemSkill": "IceZone_Rare_top",
+      "speed": "mine_3_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000017": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "GainBooster_Rare_top7",
+      "speed": "forest_4_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:210000006": {
+      "bonus": "skillpoint_70",
+      "itemSkill": "CoolTimeGetItem_Epic",
+      "speed": "village_3_driftEscapeForce_1",
+      "support": "start_time_1",
+      "maskCostumeId": ""
+    },
+    "Costume:210000007": {
+      "bonus": "rp_50",
+      "itemSkill": "CoolTimeGetItem_Rare_bottom",
+      "speed": "village_3_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:211000008": {
+      "bonus": "lucci_50",
+      "itemSkill": "AbsorbItemBox_Rare_top",
+      "speed": "tomb_4_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:212000004": {
+      "bonus": "rp_70",
+      "itemSkill": "StealItem_Epic",
+      "speed": "world_2_transAccelFactor_1",
+      "support": "antiCollideBalance_1",
+      "maskCostumeId": ""
+    },
+    "Costume:212000007": {
+      "bonus": "lucci_70",
+      "itemSkill": "StealItem_Epic",
+      "speed": "SRB_4_driftEscapeForce_1",
+      "support": "steer_-1",
+      "maskCostumeId": ""
+    },
+    "Costume:212000010": {
+      "bonus": "skillpoint_70",
+      "itemSkill": "StealItem_Epic",
+      "speed": "world_2_driftEscapeForce_1",
+      "support": "teambooster_time_1",
+      "maskCostumeId": ""
+    },
+    "Costume:212000011": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "StealItem_Rare_top",
+      "speed": "ice_5_driftEscapeForce_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:213000005": {
+      "bonus": "rp_50",
+      "itemSkill": "ShockWave_Rare_top",
+      "speed": "moonhill_2_transAccelFactor_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:213000007": {
+      "bonus": "lucci_50",
+      "itemSkill": "ShockWave_Rare_top",
+      "speed": "moonhill_2_driftEscapeForce_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:213000009": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "ShockWave_Rare_top",
+      "speed": "moonhill_2_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:213000010": {
+      "bonus": "rp_50",
+      "itemSkill": "ShockWave_Rare_middle",
+      "speed": "moonhill_2_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:214000005": {
+      "bonus": "lucci_50",
+      "itemSkill": "SleepEnerge_Rare_top",
+      "speed": "tomb_3_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:214000007": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "SleepEnerge_Rare_top",
+      "speed": "world_2_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:216000012": {
+      "bonus": "rp_50",
+      "itemSkill": "WindAttack_Rare_top",
+      "speed": "forest_4_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:217000003": {
+      "bonus": "rp_70",
+      "itemSkill": "UpgradeWaterBomb_Epic44",
+      "speed": "desert_5_transAccelFactor_1",
+      "support": "antiCollideBalance_1",
+      "maskCostumeId": ""
+    },
+    "Costume:217000006": {
+      "bonus": "lucci_50",
+      "itemSkill": "UpgradeWaterBomb_Rare_top43",
+      "speed": "WKC_4_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:217000007": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "UpgradeWaterBomb_Rare_bottom41",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:219000004": {
+      "bonus": "rp_50",
+      "itemSkill": "BarricadeRobot_Rare_top",
+      "speed": "factory_4_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:219000012": {
+      "bonus": "lucci_50",
+      "itemSkill": "BarricadeRobot_Rare_top",
+      "speed": "factory_4_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:221000006": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "AfterSiren_Rare_top",
+      "speed": "SNU_3_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:223000002": {
+      "bonus": "rp_50",
+      "itemSkill": "Detective_Rare_top79",
+      "speed": "world_3_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:225000002": {
+      "bonus": "lucci_50",
+      "itemSkill": "AccelBuff_Rare_top",
+      "speed": "WKC_5_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:226000003": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "AbsorbGauge_Rare_top",
+      "speed": "tomb_3_driftEscapeForce_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:227000004": {
+      "bonus": "rp_50",
+      "itemSkill": "Invisibility_Rare_top",
+      "speed": "tomb_3_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:227000005": {
+      "bonus": "rp_50",
+      "itemSkill": "Invisibility_Rare_top",
+      "speed": "tomb_4_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:229000002": {
+      "bonus": "lucci_50",
+      "itemSkill": "GainItemWater_Rare_middle24",
+      "speed": "world_4_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:230000002": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "EscapeWater_Rare32",
+      "speed": "world_4_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:235000007": {
+      "bonus": "rp_50",
+      "itemSkill": "PressLeft_Rare_top",
+      "speed": "SNU_5_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:236000004": {
+      "bonus": "lucci_50",
+      "itemSkill": "PressRight_Rare_top",
+      "speed": "desert_4_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:236000007": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "PressRight_Rare_middle",
+      "speed": "SNU_4_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:237000006": {
+      "bonus": "rp_50",
+      "itemSkill": "TimeBomb_Rare_top",
+      "speed": "SNU_4_driftEscapeForce_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:238000006": {
+      "bonus": "lucci_50",
+      "itemSkill": "Parrying_Rare_top",
+      "speed": "moonhill_2_transAccelFactor_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:243000007": {
+      "bonus": "lucci_70",
+      "itemSkill": "Attraction_Epic",
+      "speed": "Kauzee_4_normalBoosterTime_1",
+      "support": "teambooster_time_1",
+      "maskCostumeId": ""
+    },
+    "Costume:245000001": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:245000002": {
+      "bonus": "rp_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:245000003": {
+      "bonus": "lucci_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:246000001": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:246000002": {
+      "bonus": "rp_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:246000003": {
+      "bonus": "lucci_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:247000001": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:247000002": {
+      "bonus": "rp_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:247000003": {
+      "bonus": "lucci_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:248000001": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:248000002": {
+      "bonus": "rp_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:248000003": {
+      "bonus": "lucci_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:249000001": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:249000002": {
+      "bonus": "rp_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:249000003": {
+      "bonus": "lucci_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:250000001": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:250000002": {
+      "bonus": "rp_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:250000003": {
+      "bonus": "lucci_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:251000001": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:251000002": {
+      "bonus": "rp_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:251000003": {
+      "bonus": "lucci_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:252000002": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "BoosterBuffWave_Rare_top",
+      "speed": "SNU_4_transAccelFactor_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:252000003": {
+      "bonus": "rp_50",
+      "itemSkill": "BoosterBuffWave_Rare_top",
+      "speed": "SNU_5_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:252000007": {
+      "bonus": "lucci_50",
+      "itemSkill": "BoosterBuffWave_Rare_middle",
+      "speed": "forest_3_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:253000002": {
+      "bonus": "lucci_50",
+      "itemSkill": "Peek_Rare_top",
+      "speed": "SNU_5_driftEscapeForce_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:253000003": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "Peek_Rare_top",
+      "speed": "WKC_2_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:254000002": {
+      "bonus": "rp_50",
+      "itemSkill": "ShieldZone_Rare_top",
+      "speed": "WKC_4_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:254000004": {
+      "bonus": "lucci_50",
+      "itemSkill": "ShieldZone_Rare_middle",
+      "speed": "SNU_4_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:254000005": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "ShieldZone_Rare_top",
+      "speed": "SNU_5_transAccelFactor_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:255000001": {
+      "bonus": "rp_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:255000002": {
+      "bonus": "lucci_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:255000003": {
+      "bonus": "skillpoint_70",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:256000001": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:256000002": {
+      "bonus": "rp_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:256000003": {
+      "bonus": "rp_70",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:257000001": {
+      "bonus": "lucci_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:257000002": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:257000003": {
+      "bonus": "lucci_70",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:258000001": {
+      "bonus": "rp_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:258000002": {
+      "bonus": "lucci_50",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:258000003": {
+      "bonus": "skillpoint_70",
+      "itemSkill": "",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:259000001": {
+      "bonus": "rp_50",
+      "itemSkill": "RapidBoom_Rare_middle",
+      "speed": "SRB_3_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:259000002": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "RapidBoom_Rare_top",
+      "speed": "SRB_5_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000002": {
+      "bonus": "rp_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000003": {
+      "bonus": "lucci_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000004": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000005": {
+      "bonus": "rp_30",
+      "itemSkill": "Jump_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000006": {
+      "bonus": "lucci_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000007": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000008": {
+      "bonus": "rp_30",
+      "itemSkill": "Jump_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000009": {
+      "bonus": "lucci_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000010": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000011": {
+      "bonus": "rp_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000012": {
+      "bonus": "lucci_30",
+      "itemSkill": "Jump_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000013": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000017": {
+      "bonus": "rp_30",
+      "itemSkill": "Jump_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000019": {
+      "bonus": "lucci_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000020": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000021": {
+      "bonus": "rp_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000022": {
+      "bonus": "lucci_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000023": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000024": {
+      "bonus": "rp_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000025": {
+      "bonus": "lucci_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000026": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000027": {
+      "bonus": "rp_30",
+      "itemSkill": "Jump_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000002": {
+      "bonus": "lucci_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000004": {
+      "bonus": "rp_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000005": {
+      "bonus": "lucci_30",
+      "itemSkill": "Bowling_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000006": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Bowling_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000007": {
+      "bonus": "rp_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000012": {
+      "bonus": "lucci_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000013": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000014": {
+      "bonus": "rp_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000015": {
+      "bonus": "lucci_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000016": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000017": {
+      "bonus": "rp_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000018": {
+      "bonus": "lucci_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000019": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000020": {
+      "bonus": "rp_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000021": {
+      "bonus": "lucci_30",
+      "itemSkill": "Bowling_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:202000022": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Bowling_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000002": {
+      "bonus": "rp_30",
+      "itemSkill": "BoosterZone_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000004": {
+      "bonus": "lucci_30",
+      "itemSkill": "BoosterZone_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000005": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BoosterZone_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000006": {
+      "bonus": "rp_30",
+      "itemSkill": "BoosterZone_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000007": {
+      "bonus": "lucci_30",
+      "itemSkill": "BoosterZone_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000009": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BoosterZone_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000010": {
+      "bonus": "rp_30",
+      "itemSkill": "BoosterZone_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000011": {
+      "bonus": "lucci_30",
+      "itemSkill": "BoosterZone_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000012": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BoosterZone_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000013": {
+      "bonus": "rp_30",
+      "itemSkill": "BoosterZone_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000015": {
+      "bonus": "lucci_30",
+      "itemSkill": "BoosterZone_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000016": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BoosterZone_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000017": {
+      "bonus": "rp_30",
+      "itemSkill": "BoosterZone_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000018": {
+      "bonus": "lucci_30",
+      "itemSkill": "BoosterZone_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000019": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BoosterZone_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:206000001": {
+      "bonus": "rp_30",
+      "itemSkill": "TargetBooster_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:206000002": {
+      "bonus": "lucci_30",
+      "itemSkill": "TargetBooster_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:206000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "TargetBooster_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:206000007": {
+      "bonus": "rp_30",
+      "itemSkill": "TargetBooster_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:206000008": {
+      "bonus": "lucci_30",
+      "itemSkill": "TargetBooster_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:206000009": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "TargetBooster_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:207000001": {
+      "bonus": "rp_30",
+      "itemSkill": "BouncyBall_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:207000002": {
+      "bonus": "lucci_30",
+      "itemSkill": "BouncyBall_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:207000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BouncyBall_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:207000004": {
+      "bonus": "rp_30",
+      "itemSkill": "BouncyBall_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:207000005": {
+      "bonus": "lucci_30",
+      "itemSkill": "BouncyBall_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:207000006": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BouncyBall_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:208000001": {
+      "bonus": "rp_30",
+      "itemSkill": "IceZone_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:208000002": {
+      "bonus": "lucci_30",
+      "itemSkill": "IceZone_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:208000004": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "IceZone_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:208000006": {
+      "bonus": "rp_30",
+      "itemSkill": "IceZone_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:208000007": {
+      "bonus": "lucci_30",
+      "itemSkill": "IceZone_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000002": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "GainBooster_UnCommon_top4",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000003": {
+      "bonus": "rp_30",
+      "itemSkill": "GainBooster_UnCommon_bottom2",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000004": {
+      "bonus": "lucci_30",
+      "itemSkill": "GainBooster_UnCommon_top4",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000005": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "GainBooster_UnCommon_bottom2",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000006": {
+      "bonus": "rp_30",
+      "itemSkill": "GainBooster_UnCommon_top4",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000008": {
+      "bonus": "lucci_30",
+      "itemSkill": "GainBooster_UnCommon_top4",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000010": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "GainBooster_UnCommon_bottom2",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000011": {
+      "bonus": "rp_30",
+      "itemSkill": "GainBooster_UnCommon_bottom2",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000012": {
+      "bonus": "lucci_30",
+      "itemSkill": "GainBooster_UnCommon_bottom2",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000013": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "GainBooster_UnCommon_bottom2",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000014": {
+      "bonus": "rp_30",
+      "itemSkill": "GainBooster_UnCommon_bottom2",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000015": {
+      "bonus": "lucci_30",
+      "itemSkill": "GainBooster_UnCommon_bottom2",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000016": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "GainBooster_UnCommon_bottom2",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000018": {
+      "bonus": "rp_30",
+      "itemSkill": "GainBooster_UnCommon_top4",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:210000002": {
+      "bonus": "lucci_30",
+      "itemSkill": "CoolTimeGetItem_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:210000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "CoolTimeGetItem_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:210000004": {
+      "bonus": "rp_30",
+      "itemSkill": "CoolTimeGetItem_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:210000008": {
+      "bonus": "lucci_30",
+      "itemSkill": "CoolTimeGetItem_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:210000009": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "CoolTimeGetItem_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:211000001": {
+      "bonus": "rp_30",
+      "itemSkill": "AbsorbItemBox_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:211000002": {
+      "bonus": "lucci_30",
+      "itemSkill": "AbsorbItemBox_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:211000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "AbsorbItemBox_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:211000005": {
+      "bonus": "rp_30",
+      "itemSkill": "AbsorbItemBox_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:211000006": {
+      "bonus": "lucci_30",
+      "itemSkill": "AbsorbItemBox_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:211000007": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "AbsorbItemBox_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:212000002": {
+      "bonus": "rp_30",
+      "itemSkill": "StealItem_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:212000003": {
+      "bonus": "lucci_30",
+      "itemSkill": "StealItem_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:212000005": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "StealItem_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:212000006": {
+      "bonus": "rp_30",
+      "itemSkill": "StealItem_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:212000008": {
+      "bonus": "lucci_30",
+      "itemSkill": "StealItem_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:212000009": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "StealItem_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:212000012": {
+      "bonus": "rp_30",
+      "itemSkill": "StealItem_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:212000013": {
+      "bonus": "lucci_30",
+      "itemSkill": "StealItem_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:213000002": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "ShockWave_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:213000004": {
+      "bonus": "rp_30",
+      "itemSkill": "ShockWave_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:213000008": {
+      "bonus": "lucci_30",
+      "itemSkill": "ShockWave_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:214000002": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "SleepEnerge_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:214000003": {
+      "bonus": "rp_30",
+      "itemSkill": "SleepEnerge_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:214000004": {
+      "bonus": "lucci_30",
+      "itemSkill": "SleepEnerge_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:214000006": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "SleepEnerge_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:215000003": {
+      "bonus": "rp_30",
+      "itemSkill": "GainMultiItem_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:215000004": {
+      "bonus": "lucci_30",
+      "itemSkill": "GainMultiItem_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:215000006": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "GainMultiItem_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:215000008": {
+      "bonus": "rp_30",
+      "itemSkill": "GainMultiItem_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:216000004": {
+      "bonus": "lucci_30",
+      "itemSkill": "WindAttack_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:216000005": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "WindAttack_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:216000006": {
+      "bonus": "rp_30",
+      "itemSkill": "WindAttack_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:216000007": {
+      "bonus": "lucci_30",
+      "itemSkill": "WindAttack_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:216000008": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "WindAttack_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:216000010": {
+      "bonus": "rp_30",
+      "itemSkill": "WindAttack_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:216000011": {
+      "bonus": "lucci_30",
+      "itemSkill": "WindAttack_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:217000002": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "UpgradeWaterBomb_UnCommon_middle39",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:217000004": {
+      "bonus": "rp_30",
+      "itemSkill": "UpgradeWaterBomb_UnCommon_bottom38",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:217000005": {
+      "bonus": "lucci_30",
+      "itemSkill": "UpgradeWaterBomb_UnCommon_bottom38",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:217000009": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "UpgradeWaterBomb_UnCommon_top40",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:218000004": {
+      "bonus": "rp_30",
+      "itemSkill": "SleepBook_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:218000006": {
+      "bonus": "lucci_30",
+      "itemSkill": "SleepBook_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:219000001": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BarricadeRobot_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:219000002": {
+      "bonus": "rp_30",
+      "itemSkill": "BarricadeRobot_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:219000003": {
+      "bonus": "lucci_30",
+      "itemSkill": "BarricadeRobot_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:219000005": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BarricadeRobot_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:219000006": {
+      "bonus": "rp_30",
+      "itemSkill": "BarricadeRobot_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:219000007": {
+      "bonus": "lucci_30",
+      "itemSkill": "BarricadeRobot_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:219000008": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BarricadeRobot_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:219000009": {
+      "bonus": "rp_30",
+      "itemSkill": "BarricadeRobot_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:219000013": {
+      "bonus": "lucci_30",
+      "itemSkill": "BarricadeRobot_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:220000001": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Copy_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:220000002": {
+      "bonus": "rp_30",
+      "itemSkill": "Copy_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:220000003": {
+      "bonus": "lucci_30",
+      "itemSkill": "Copy_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:221000004": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "AfterSiren_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:221000005": {
+      "bonus": "rp_30",
+      "itemSkill": "AfterSiren_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:221000007": {
+      "bonus": "lucci_30",
+      "itemSkill": "AfterSiren_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:221000008": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "AfterSiren_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:221000009": {
+      "bonus": "rp_30",
+      "itemSkill": "AfterSiren_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:222000002": {
+      "bonus": "lucci_30",
+      "itemSkill": "UseItemDonut_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:222000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "UseItemDonut_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:222000004": {
+      "bonus": "rp_30",
+      "itemSkill": "UseItemDonut_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:222000005": {
+      "bonus": "lucci_30",
+      "itemSkill": "UseItemDonut_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:222000006": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "UseItemDonut_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:222000007": {
+      "bonus": "rp_30",
+      "itemSkill": "UseItemDonut_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:222000008": {
+      "bonus": "lucci_30",
+      "itemSkill": "UseItemDonut_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:223000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Detective_UnCommon_bottom74",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:223000004": {
+      "bonus": "rp_30",
+      "itemSkill": "Detective_UnCommon_bottom74",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:223000005": {
+      "bonus": "lucci_30",
+      "itemSkill": "Detective_UnCommon_bottom74",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:223000006": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Detective_UnCommon_bottom74",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:223000008": {
+      "bonus": "rp_30",
+      "itemSkill": "Detective_UnCommon_top76",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:225000001": {
+      "bonus": "lucci_30",
+      "itemSkill": "AccelBuff_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:225000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "AccelBuff_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:225000004": {
+      "bonus": "rp_30",
+      "itemSkill": "AccelBuff_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:225000005": {
+      "bonus": "lucci_30",
+      "itemSkill": "AccelBuff_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:225000006": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "AccelBuff_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:226000001": {
+      "bonus": "rp_30",
+      "itemSkill": "AbsorbGauge_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:226000002": {
+      "bonus": "lucci_30",
+      "itemSkill": "AbsorbGauge_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:227000001": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Invisibility_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:227000002": {
+      "bonus": "rp_30",
+      "itemSkill": "Invisibility_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:227000003": {
+      "bonus": "lucci_30",
+      "itemSkill": "Invisibility_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:228000001": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "MissileBomb_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:228000002": {
+      "bonus": "rp_30",
+      "itemSkill": "MissileBomb_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:228000005": {
+      "bonus": "lucci_30",
+      "itemSkill": "MissileBomb_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:228000006": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "MissileBomb_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:229000001": {
+      "bonus": "rp_30",
+      "itemSkill": "GainItemWater_UnCommon_bottom20",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:229000003": {
+      "bonus": "lucci_30",
+      "itemSkill": "GainItemWater_UnCommon_top22",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:229000004": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "GainItemWater_UnCommon_middle21",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:229000005": {
+      "bonus": "rp_30",
+      "itemSkill": "GainItemWater_UnCommon_middle21",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:230000001": {
+      "bonus": "lucci_30",
+      "itemSkill": "EscapeWater_UnCommon29",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:230000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "EscapeWater_UnCommon29",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:230000004": {
+      "bonus": "rp_30",
+      "itemSkill": "EscapeWater_UnCommon29",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:235000001": {
+      "bonus": "lucci_30",
+      "itemSkill": "PressLeft_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:235000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "PressLeft_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:235000004": {
+      "bonus": "rp_30",
+      "itemSkill": "PressLeft_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:236000001": {
+      "bonus": "lucci_30",
+      "itemSkill": "PressRight_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:236000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "PressRight_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:237000001": {
+      "bonus": "rp_30",
+      "itemSkill": "TimeBomb_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:237000002": {
+      "bonus": "lucci_30",
+      "itemSkill": "TimeBomb_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:237000004": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "TimeBomb_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:238000001": {
+      "bonus": "rp_30",
+      "itemSkill": "Parrying_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:238000002": {
+      "bonus": "lucci_30",
+      "itemSkill": "Parrying_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:238000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Parrying_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:239000001": {
+      "bonus": "rp_30",
+      "itemSkill": "BarricadeIgnore_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:239000002": {
+      "bonus": "lucci_30",
+      "itemSkill": "BarricadeIgnore_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:239000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BarricadeIgnore_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:239000004": {
+      "bonus": "rp_30",
+      "itemSkill": "BarricadeIgnore_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:239000005": {
+      "bonus": "lucci_30",
+      "itemSkill": "BarricadeIgnore_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:239000006": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BarricadeIgnore_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:240000002": {
+      "bonus": "rp_30",
+      "itemSkill": "DurationDefense_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:240000003": {
+      "bonus": "lucci_30",
+      "itemSkill": "DurationDefense_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:240000004": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "DurationDefense_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:240000005": {
+      "bonus": "rp_30",
+      "itemSkill": "DurationDefense_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:240000006": {
+      "bonus": "lucci_30",
+      "itemSkill": "DurationDefense_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:240000007": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "DurationDefense_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:240000008": {
+      "bonus": "rp_30",
+      "itemSkill": "DurationDefense_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:240000010": {
+      "bonus": "lucci_30",
+      "itemSkill": "DurationDefense_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:243000001": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Attraction_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:243000002": {
+      "bonus": "rp_30",
+      "itemSkill": "Attraction_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:243000003": {
+      "bonus": "lucci_30",
+      "itemSkill": "Attraction_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:243000004": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Attraction_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:243000005": {
+      "bonus": "rp_30",
+      "itemSkill": "Attraction_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:243000006": {
+      "bonus": "lucci_30",
+      "itemSkill": "Attraction_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:243000008": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Attraction_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:243000009": {
+      "bonus": "rp_30",
+      "itemSkill": "Attraction_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:243000010": {
+      "bonus": "lucci_30",
+      "itemSkill": "Attraction_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:252000001": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BoosterBuffWave_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:252000004": {
+      "bonus": "rp_30",
+      "itemSkill": "BoosterBuffWave_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:252000005": {
+      "bonus": "lucci_30",
+      "itemSkill": "BoosterBuffWave_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:252000006": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BoosterBuffWave_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:253000001": {
+      "bonus": "rp_30",
+      "itemSkill": "Peek_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:254000001": {
+      "bonus": "lucci_30",
+      "itemSkill": "ShieldZone_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:254000003": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "ShieldZone_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000019": {
+      "bonus": "rp_30",
+      "itemSkill": "GainBooster_UnCommon_bottom2",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:260000001": {
+      "bonus": "lucci_70",
+      "itemSkill": "BarricadeDoll_Epic",
+      "speed": "Kauzee_4_transAccelFactor_1",
+      "support": "steer_-1",
+      "maskCostumeId": ""
+    },
+    "Costume:261000001": {
+      "bonus": "skillpoint_70",
+      "itemSkill": "RandomUseItems_Epic",
+      "speed": "Kauzee_4_driftEscapeForce_1",
+      "support": "start_time_1",
+      "maskCostumeId": ""
+    },
+    "Costume:220000006": {
+      "bonus": "rp_70",
+      "itemSkill": "Copy_Epic",
+      "speed": "SRB_5_transAccelFactor_1",
+      "support": "antiCollideBalance_1",
+      "maskCostumeId": ""
+    },
+    "Costume:243000011": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "Attraction_Rare_middle",
+      "speed": "Kauzee_4_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:259000003": {
+      "bonus": "rp_50",
+      "itemSkill": "RapidBoom_Rare_middle",
+      "speed": "SRB_4_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:230000005": {
+      "bonus": "lucci_30",
+      "itemSkill": "EscapeWater_UnCommon29",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:213000011": {
+      "bonus": "lucci_50",
+      "itemSkill": "ShockWave_Rare_middle",
+      "speed": "world_3_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:228000004": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "MissileBomb_Rare_bottom",
+      "speed": "SRB_5_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:235000002": {
+      "bonus": "lucci_30",
+      "itemSkill": "PressLeft_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:215000005": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "GainMultiItem_UnCommon_bottom",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:206000005": {
+      "bonus": "rp_50",
+      "itemSkill": "TargetBooster_Rare_top",
+      "speed": "world_2_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:211000004": {
+      "bonus": "rp_30",
+      "itemSkill": "AbsorbItemBox_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:261000002": {
+      "bonus": "lucci_70",
+      "itemSkill": "RandomUseItems_Epic",
+      "speed": "Kauzee_2_transAccelFactor_1",
+      "support": "start_accel_1",
+      "maskCostumeId": ""
+    },
+    "Costume:212000014": {
+      "bonus": "lucci_50",
+      "itemSkill": "StealItem_Rare_top",
+      "speed": "world_3_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:236000002": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "PressRight_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:237000007": {
+      "bonus": "rp_30",
+      "itemSkill": "TimeBomb_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:232000001": {
+      "bonus": "lucci_50",
+      "itemSkill": "Revenge_Rare_middle_DurationTime_13",
+      "speed": "world_4_driftEscapeForce_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:243000012": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "Attraction_Rare_bottom",
+      "speed": "Kauzee_5_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:223000007": {
+      "bonus": "rp_50",
+      "itemSkill": "Detective_Rare_middle78",
+      "speed": "world_3_driftMaxGauge_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:232000003": {
+      "bonus": "lucci_50",
+      "itemSkill": "Revenge_Rare_middle_DurationTime_13",
+      "speed": "world_4_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:228000003": {
+      "bonus": "skillpoint_70",
+      "itemSkill": "MissileBomb_Epic",
+      "speed": "SRB_4_transAccelFactor_1",
+      "support": "steer_-1",
+      "maskCostumeId": ""
+    },
+    "Costume:218000005": {
+      "bonus": "rp_50",
+      "itemSkill": "SleepBook_Rare_middle",
+      "speed": "village_2_normalBoosterTime_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:209000020": {
+      "bonus": "lucci_50",
+      "itemSkill": "GainBooster_Rare_middle6",
+      "speed": "world_3_transAccelFactor_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:219000011": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "BarricadeRobot_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:217000008": {
+      "bonus": "rp_50",
+      "itemSkill": "UpgradeWaterBomb_Rare_middle42",
+      "speed": "world_4_transAccelFactor_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:203000020": {
+      "bonus": "lucci_50",
+      "itemSkill": "BoosterZone_Rare_middle",
+      "speed": "factory_5_driftEscapeForce_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:213000012": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "ShockWave_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:240000009": {
+      "bonus": "rp_30",
+      "itemSkill": "DurationDefense_UnCommon",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:235000006": {
+      "bonus": "lucci_50",
+      "itemSkill": "PressLeft_Rare_top",
+      "speed": "desert_3_driftEscapeForce_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:236000006": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "PressRight_Rare_top",
+      "speed": "desert_3_transAccelFactor_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:216000003": {
+      "bonus": "rp_50",
+      "itemSkill": "WindAttack_Rare_bottom",
+      "speed": "village_5_transAccelFactor_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:221000003": {
+      "bonus": "lucci_50",
+      "itemSkill": "AfterSiren_Rare_bottom",
+      "speed": "moonhill_3_transAccelFactor_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:237000005": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "TimeBomb_Rare_bottom",
+      "speed": "desert_5_driftEscapeForce_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:201000014": {
+      "bonus": "rp_50",
+      "itemSkill": "Jump_Rare_bottom",
+      "speed": "village_5_driftEscapeForce_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:214000008": {
+      "bonus": "lucci_30",
+      "itemSkill": "SleepEnerge_UnCommon_top",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:208000008": {
+      "bonus": "skillpoint_50",
+      "itemSkill": "IceZone_Rare_middle",
+      "speed": "ice_5_transAccelFactor_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:225000007": {
+      "bonus": "rp_50",
+      "itemSkill": "AccelBuff_Rare_top",
+      "speed": "WKC_2_transAccelFactor_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:225000008": {
+      "bonus": "lucci_70",
+      "itemSkill": "AccelBuff_Epic",
+      "speed": "WKC_4_driftEscapeForce_1",
+      "support": "start_accel_1",
+      "maskCostumeId": ""
+    },
+    "Costume:202000011": {
+      "bonus": "skillpoint_30",
+      "itemSkill": "Bowling_UnCommon_middle",
+      "speed": "",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:215000009": {
+      "bonus": "rp_50",
+      "itemSkill": "GainMultiItem_Rare_middle",
+      "speed": "mine_3_transAccelFactor_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:232000002": {
+      "bonus": "lucci_50",
+      "itemSkill": "Revenge_Rare_top_DurationTime",
+      "speed": "SNU_3_driftEscapeForce_1",
+      "support": "",
+      "maskCostumeId": ""
+    },
+    "Costume:206000006": {
+      "bonus": "skillpoint_70",
+      "itemSkill": "TargetBooster_Epic",
+      "speed": "",
+      "support": "draft_charge_1",
+      "maskCostumeId": ""
+    }
+  },
+  "values": {
+    "bonus": [
+      "rp_20",
+      "lucci_20",
+      "skillpoint_20",
+      "rp_20_lucci_20",
+      "rp_20_skillpoint_20",
+      "lucci_20_skillpoint_20",
+      "rp_20_lucci_20_skillpoint_20",
+      "rp_30",
+      "lucci_30",
+      "skillpoint_30",
+      "rp_30_lucci_30",
+      "rp_30_skillpoint_30",
+      "lucci_30_skillpoint_30",
+      "rp_30_lucci_30_skillpoint_30",
+      "rp_50",
+      "lucci_50",
+      "skillpoint_50",
+      "rp_50_lucci_50",
+      "rp_50_skillpoint_50",
+      "lucci_50_skillpoint_50",
+      "rp_50_lucci_50_skillpoint_50",
+      "rp_70",
+      "lucci_70",
+      "skillpoint_70",
+      "rp_70_lucci_70",
+      "rp_70_skillpoint_70",
+      "lucci_70_skillpoint_70",
+      "rp_70_lucci_70_skillpoint_70",
+      "rp_100",
+      "lucci_100",
+      "skillpoint_100",
+      "rp_100_lucci_100",
+      "rp_100_skillpoint_100",
+      "lucci_100_skillpoint_100",
+      "rp_100_lucci_100_skillpoint_100"
+    ],
+    "itemSkill": [
+      "GainBooster_Common1",
+      "GainBooster_UnCommon_bottom2",
+      "GainBooster_UnCommon_middle3",
+      "GainBooster_UnCommon_top4",
+      "GainBooster_Rare_bottom5",
+      "GainBooster_Rare_middle6",
+      "GainBooster_Rare_top7",
+      "GainBooster_Epic8",
+      "GainBooster_Legendary9",
+      "CoolTimeGetItem_Common",
+      "CoolTimeGetItem_UnCommon_bottom",
+      "CoolTimeGetItem_UnCommon_middle",
+      "CoolTimeGetItem_UnCommon_top",
+      "CoolTimeGetItem_Rare_bottom",
+      "CoolTimeGetItem_Rare_middle",
+      "CoolTimeGetItem_Rare_top",
+      "CoolTimeGetItem_Epic",
+      "CoolTimeGetItem_Legendary",
+      "GainItemWater_Common19",
+      "GainItemWater_UnCommon_bottom20",
+      "GainItemWater_UnCommon_middle21",
+      "GainItemWater_UnCommon_top22",
+      "GainItemWater_Rare_bottom23",
+      "GainItemWater_Rare_middle24",
+      "GainItemWater_Rare_top25",
+      "GainItemWater_Epic26",
+      "GainItemWater_Legendary27",
+      "EscapeWater_Common28",
+      "EscapeWater_UnCommon29",
+      "EscapeWater_Rare32",
+      "EscapeWater_Epic35",
+      "EscapeWater_Legendary36",
+      "UpgradeWaterBomb_Common37",
+      "UpgradeWaterBomb_UnCommon_bottom38",
+      "UpgradeWaterBomb_UnCommon_middle39",
+      "UpgradeWaterBomb_UnCommon_top40",
+      "UpgradeWaterBomb_Rare_bottom41",
+      "UpgradeWaterBomb_Rare_middle42",
+      "UpgradeWaterBomb_Rare_top43",
+      "UpgradeWaterBomb_Epic44",
+      "UpgradeWaterBomb_Legendary45",
+      "UpgradeWaterBomb_Common46",
+      "UpgradeWaterBomb_UnCommon_bottom47",
+      "UpgradeWaterBomb_UnCommon_middle48",
+      "UpgradeWaterBomb_UnCommon_top49",
+      "UpgradeWaterBomb_Rare_bottom50",
+      "UpgradeWaterBomb_Rare_middle51",
+      "UpgradeWaterBomb_Rare_top52",
+      "UpgradeWaterBomb_Epic53",
+      "UpgradeWaterBomb_Legendary54",
+      "Revenge_Common",
+      "Revenge_UnCommon_bottom",
+      "Revenge_UnCommon_middle",
+      "Revenge_UnCommon_top",
+      "Revenge_Rare_bottom",
+      "Revenge_Rare_middle",
+      "Revenge_Rare_top",
+      "Revenge_Epic",
+      "Revenge_Legendary",
+      "GainMultiItem_Common",
+      "GainMultiItem_UnCommon_bottom",
+      "GainMultiItem_UnCommon_middle",
+      "GainMultiItem_UnCommon_top",
+      "GainMultiItem_Rare_bottom",
+      "GainMultiItem_Rare_middle",
+      "GainMultiItem_Rare_top",
+      "GainMultiItem_Epic",
+      "GainMultiItem_Legendary",
+      "Detective_Common73",
+      "Detective_UnCommon_bottom74",
+      "Detective_UnCommon_middle75",
+      "Detective_UnCommon_top76",
+      "Detective_Rare_bottom77",
+      "Detective_Rare_middle78",
+      "Detective_Rare_top79",
+      "Detective_Epic80",
+      "Detective_Legendary81",
+      "AfterSiren_Common",
+      "AfterSiren_UnCommon_bottom",
+      "AfterSiren_UnCommon_middle",
+      "AfterSiren_UnCommon_top",
+      "AfterSiren_Rare_bottom",
+      "AfterSiren_Rare_middle",
+      "AfterSiren_Rare_top",
+      "AfterSiren_Epic",
+      "AfterSiren_Legendary",
+      "Detective_Common91",
+      "Detective_UnCommon_bottom92",
+      "Detective_UnCommon_middle93",
+      "Detective_UnCommon_top94",
+      "Detective_Rare_bottom95",
+      "Detective_Rare_middle96",
+      "Detective_Rare_top97",
+      "Detective_Epic98",
+      "Detective_Legendary99",
+      "PressLeft_Common",
+      "PressLeft_UnCommon_bottom",
+      "PressLeft_UnCommon_middle",
+      "PressLeft_UnCommon_top",
+      "PressLeft_Rare_bottom",
+      "PressLeft_Rare_middle",
+      "PressLeft_Rare_top",
+      "PressLeft_Epic",
+      "PressLeft_Legendary",
+      "PressRight_Common",
+      "PressRight_UnCommon_bottom",
+      "PressRight_UnCommon_middle",
+      "PressRight_UnCommon_top",
+      "PressRight_Rare_bottom",
+      "PressRight_Rare_middle",
+      "PressRight_Rare_top",
+      "PressRight_Epic",
+      "PressRight_Legendary",
+      "BarricadeIgnore_Common",
+      "BarricadeIgnore_UnCommon",
+      "BarricadeIgnore_Rare",
+      "BarricadeIgnore_Epic",
+      "BarricadeIgnore_Legendary",
+      "AccelBuff_Common",
+      "AccelBuff_UnCommon_bottom",
+      "AccelBuff_UnCommon_middle",
+      "AccelBuff_UnCommon_top",
+      "AccelBuff_Rare_bottom",
+      "AccelBuff_Rare_middle",
+      "AccelBuff_Rare_top",
+      "AccelBuff_Epic",
+      "AccelBuff_Legendary",
+      "UseItemDonut_Common",
+      "UseItemDonut_UnCommon_bottom",
+      "UseItemDonut_UnCommon_middle",
+      "UseItemDonut_UnCommon_top",
+      "UseItemDonut_Rare_bottom",
+      "UseItemDonut_Rare_middle",
+      "UseItemDonut_Rare_top",
+      "UseItemDonut_Epic",
+      "UseItemDonut_Legendary",
+      "DurationDefense_Common",
+      "DurationDefense_UnCommon",
+      "DurationDefense_Rare",
+      "DurationDefense_Epic",
+      "DurationDefense_Legendary",
+      "Copy_Common",
+      "Copy_UnCommon_bottom",
+      "Copy_UnCommon_middle",
+      "Copy_UnCommon_top",
+      "Copy_Rare_bottom",
+      "Copy_Rare_middle",
+      "Copy_Rare_top",
+      "Copy_Epic",
+      "Copy_Legendary",
+      "MissileBomb_Common",
+      "MissileBomb_UnCommon_bottom",
+      "MissileBomb_UnCommon_middle",
+      "MissileBomb_UnCommon_top",
+      "MissileBomb_Rare_bottom",
+      "MissileBomb_Rare_middle",
+      "MissileBomb_Rare_top",
+      "MissileBomb_Epic",
+      "MissileBomb_Legendary",
+      "SleepBook_Common",
+      "SleepBook_UnCommon_bottom",
+      "SleepBook_UnCommon_middle",
+      "SleepBook_UnCommon_top",
+      "SleepBook_Rare_bottom",
+      "SleepBook_Rare_middle",
+      "SleepBook_Rare_top",
+      "SleepBook_Epic",
+      "SleepBook_Legendary",
+      "Peek_Common",
+      "Peek_UnCommon_bottom",
+      "Peek_UnCommon_middle",
+      "Peek_UnCommon_top",
+      "Peek_Rare_bottom",
+      "Peek_Rare_middle",
+      "Peek_Rare_top",
+      "Peek_Epic",
+      "Peek_Legendary",
+      "UpgradeWaterBomb_Common190",
+      "UpgradeWaterBomb_UnCommon_bottom191",
+      "UpgradeWaterBomb_UnCommon_middle192",
+      "UpgradeWaterBomb_UnCommon_top193",
+      "UpgradeWaterBomb_Rare_bottom194",
+      "UpgradeWaterBomb_Rare_middle195",
+      "UpgradeWaterBomb_Rare_top196",
+      "UpgradeWaterBomb_Epic197",
+      "UpgradeWaterBomb_Legendary198",
+      "EscapeWater_Common199",
+      "EscapeWater_UnCommon200",
+      "EscapeWater_Rare203",
+      "EscapeWater_Epic206",
+      "EscapeWater_Legendary207",
+      "GainBooster_Common208",
+      "GainBooster_UnCommon_bottom209",
+      "GainBooster_UnCommon_middle210",
+      "GainBooster_UnCommon_top211",
+      "GainBooster_Rare_bottom212",
+      "GainBooster_Rare_middle213",
+      "GainBooster_Rare_top214",
+      "GainBooster_Epic215",
+      "GainBooster_Legendary216",
+      "GainItemWater_Common217",
+      "GainItemWater_UnCommon_bottom218",
+      "GainItemWater_UnCommon_middle219",
+      "GainItemWater_UnCommon_top220",
+      "GainItemWater_Rare_bottom221",
+      "GainItemWater_Rare_middle222",
+      "GainItemWater_Rare_top223",
+      "GainItemWater_Epic224",
+      "GainItemWater_Legendary225",
+      "Jump_Common",
+      "Jump_UnCommon_bottom",
+      "Jump_UnCommon_middle",
+      "Jump_UnCommon_top",
+      "Jump_Rare_bottom",
+      "Jump_Rare_middle",
+      "Jump_Rare_top",
+      "Jump_Epic",
+      "Jump_Legendary",
+      "BoosterZone_Common",
+      "BoosterZone_UnCommon_bottom",
+      "BoosterZone_UnCommon_middle",
+      "BoosterZone_UnCommon_top",
+      "BoosterZone_Rare_bottom",
+      "BoosterZone_Rare_middle",
+      "BoosterZone_Rare_top",
+      "BoosterZone_Epic",
+      "BoosterZone_Legendary",
+      "ShockWave_Common",
+      "ShockWave_UnCommon_bottom",
+      "ShockWave_UnCommon_middle",
+      "ShockWave_UnCommon_top",
+      "ShockWave_Rare_bottom",
+      "ShockWave_Rare_middle",
+      "ShockWave_Rare_top",
+      "ShockWave_Epic",
+      "ShockWave_Legendary",
+      "StealItem_Common",
+      "StealItem_UnCommon_bottom",
+      "StealItem_UnCommon_middle",
+      "StealItem_UnCommon_top",
+      "StealItem_Rare_bottom",
+      "StealItem_Rare_middle",
+      "StealItem_Rare_top",
+      "StealItem_Epic",
+      "StealItem_Legendary",
+      "Attraction_Common",
+      "Attraction_UnCommon_bottom",
+      "Attraction_UnCommon_middle",
+      "Attraction_UnCommon_top",
+      "Attraction_Rare_bottom",
+      "Attraction_Rare_middle",
+      "Attraction_Rare_top",
+      "Attraction_Epic",
+      "Attraction_Legendary",
+      "Bowling_Common",
+      "Bowling_UnCommon_bottom",
+      "Bowling_UnCommon_middle",
+      "Bowling_UnCommon_top",
+      "Bowling_Rare_bottom",
+      "Bowling_Rare_middle",
+      "Bowling_Rare_top",
+      "Bowling_Epic",
+      "Bowling_Legendary",
+      "TargetBooster_Common",
+      "TargetBooster_UnCommon_bottom",
+      "TargetBooster_UnCommon_middle",
+      "TargetBooster_UnCommon_top",
+      "TargetBooster_Rare_bottom",
+      "TargetBooster_Rare_middle",
+      "TargetBooster_Rare_top",
+      "TargetBooster_Epic",
+      "TargetBooster_Legendary",
+      "AbsorbItemBox_Common",
+      "AbsorbItemBox_UnCommon_bottom",
+      "AbsorbItemBox_UnCommon_middle",
+      "AbsorbItemBox_UnCommon_top",
+      "AbsorbItemBox_Rare_bottom",
+      "AbsorbItemBox_Rare_middle",
+      "AbsorbItemBox_Rare_top",
+      "AbsorbItemBox_Epic",
+      "AbsorbItemBox_Legendary",
+      "BouncyBall_Common",
+      "BouncyBall_UnCommon_bottom",
+      "BouncyBall_UnCommon_middle",
+      "BouncyBall_UnCommon_top",
+      "BouncyBall_Rare_bottom",
+      "BouncyBall_Rare_middle",
+      "BouncyBall_Rare_top",
+      "BouncyBall_Epic",
+      "BouncyBall_Legendary",
+      "Invisibility_Common",
+      "Invisibility_UnCommon_bottom",
+      "Invisibility_UnCommon_middle",
+      "Invisibility_UnCommon_top",
+      "Invisibility_Rare_bottom",
+      "Invisibility_Rare_middle",
+      "Invisibility_Rare_top",
+      "Invisibility_Epic",
+      "Invisibility_Legendary",
+      "BarricadeRobot_Common",
+      "BarricadeRobot_UnCommon_bottom",
+      "BarricadeRobot_UnCommon_middle",
+      "BarricadeRobot_UnCommon_top",
+      "BarricadeRobot_Rare_bottom",
+      "BarricadeRobot_Rare_middle",
+      "BarricadeRobot_Rare_top",
+      "BarricadeRobot_Epic",
+      "BarricadeRobot_Legendary",
+      "SleepEnerge_Common",
+      "SleepEnerge_UnCommon_bottom",
+      "SleepEnerge_UnCommon_middle",
+      "SleepEnerge_UnCommon_top",
+      "SleepEnerge_Rare_bottom",
+      "SleepEnerge_Rare_middle",
+      "SleepEnerge_Rare_top",
+      "SleepEnerge_Epic",
+      "SleepEnerge_Legendary",
+      "TimeBomb_Common",
+      "TimeBomb_UnCommon_bottom",
+      "TimeBomb_UnCommon_middle",
+      "TimeBomb_UnCommon_top",
+      "TimeBomb_Rare_bottom",
+      "TimeBomb_Rare_middle",
+      "TimeBomb_Rare_top",
+      "TimeBomb_Epic",
+      "TimeBomb_Legendary",
+      "IceZone_Common",
+      "IceZone_UnCommon_bottom",
+      "IceZone_UnCommon_middle",
+      "IceZone_UnCommon_top",
+      "IceZone_Rare_bottom",
+      "IceZone_Rare_middle",
+      "IceZone_Rare_top",
+      "IceZone_Epic",
+      "IceZone_Legendary",
+      "Parrying_Common",
+      "Parrying_UnCommon_bottom",
+      "Parrying_UnCommon_middle",
+      "Parrying_UnCommon_top",
+      "Parrying_Rare_bottom",
+      "Parrying_Rare_middle",
+      "Parrying_Rare_top",
+      "Parrying_Epic",
+      "Parrying_Legendary",
+      "Butterfly_Common",
+      "Butterfly_UnCommon_bottom",
+      "Butterfly_UnCommon_middle",
+      "Butterfly_UnCommon_top",
+      "Butterfly_Rare_bottom",
+      "Butterfly_Rare_middle",
+      "Butterfly_Rare_top",
+      "Butterfly_Epic",
+      "Butterfly_Legendary",
+      "ShieldZone_Common",
+      "ShieldZone_UnCommon_bottom",
+      "ShieldZone_UnCommon_middle",
+      "ShieldZone_UnCommon_top",
+      "ShieldZone_Rare_bottom",
+      "ShieldZone_Rare_middle",
+      "ShieldZone_Rare_top",
+      "ShieldZone_Epic",
+      "ShieldZone_Legendary",
+      "BoosterBuffWave_Common",
+      "BoosterBuffWave_UnCommon_bottom",
+      "BoosterBuffWave_UnCommon_middle",
+      "BoosterBuffWave_UnCommon_top",
+      "BoosterBuffWave_Rare_bottom",
+      "BoosterBuffWave_Rare_middle",
+      "BoosterBuffWave_Rare_top",
+      "BoosterBuffWave_Epic",
+      "BoosterBuffWave_Legendary",
+      "AbsorbGauge_Common",
+      "AbsorbGauge_UnCommon_bottom",
+      "AbsorbGauge_UnCommon_middle",
+      "AbsorbGauge_UnCommon_top",
+      "AbsorbGauge_Rare_bottom",
+      "AbsorbGauge_Rare_middle",
+      "AbsorbGauge_Rare_top",
+      "AbsorbGauge_Epic",
+      "AbsorbGauge_Legendary",
+      "WindAttack_Common",
+      "WindAttack_UnCommon_bottom",
+      "WindAttack_UnCommon_middle",
+      "WindAttack_UnCommon_top",
+      "WindAttack_Rare_bottom",
+      "WindAttack_Rare_middle",
+      "WindAttack_Rare_top",
+      "WindAttack_Epic",
+      "WindAttack_Legendary",
+      "RapidBoom_Common",
+      "RapidBoom_UnCommon_bottom",
+      "RapidBoom_UnCommon_middle",
+      "RapidBoom_UnCommon_top",
+      "RapidBoom_Rare_bottom",
+      "RapidBoom_Rare_middle",
+      "RapidBoom_Rare_top",
+      "RapidBoom_Epic",
+      "RapidBoom_Legendary",
+      "BarricadeDoll_Common",
+      "BarricadeDoll_UnCommon_bottom",
+      "BarricadeDoll_UnCommon_middle",
+      "BarricadeDoll_UnCommon_top",
+      "BarricadeDoll_Rare_bottom",
+      "BarricadeDoll_Rare_middle",
+      "BarricadeDoll_Rare_top",
+      "BarricadeDoll_Epic",
+      "BarricadeDoll_Legendary",
+      "RandomUseItems_Common",
+      "RandomUseItems_UnCommon",
+      "RandomUseItems_Rare",
+      "RandomUseItems_Epic",
+      "RandomUseItems_Legendary",
+      "TargetBooster_Legendary_TargetBoosterAdditionalTime_4",
+      "TargetBooster_Legendary_TargetSlowDrag_100",
+      "Jump_Rare_JumpUpPower1_90",
+      "ShockWave_Rare_ShockWaveBoundPower_120",
+      "Attraction_Rare_AttractionForceValue_1000000",
+      "Bowling_Rare_BowlingBaseSpeed_600",
+      "Invisibility_Rare_InvisibilityTime_8",
+      "IceZone_Rare_EnemyIceZoneEffectDuration_4",
+      "Butterfly_Rare_ButterflyDuration_6",
+      "Revenge_Rare_DurationTime_12",
+      "ShockWave_Epic_ShockWaveBoundPower_720",
+      "Revenge_Rare_MaxSP_30_DurationTime_12",
+      "Revenge_Common_DurationTime",
+      "Revenge_UnCommon_bottom_DurationTime",
+      "Revenge_UnCommon_middle_DurationTime",
+      "Revenge_UnCommon_top_DurationTime",
+      "Revenge_Rare_bottom_DurationTime",
+      "Revenge_Rare_middle_DurationTime_13",
+      "Revenge_Rare_top_DurationTime",
+      "Revenge_Epic_DurationTime",
+      "Revenge_Legendary_DurationTime"
+    ],
+    "speed": [
+      "all_transAccelFactor_1",
+      "all_driftEscapeForce_1",
+      "all_normalBoosterTime_1",
+      "all_driftMaxGauge_1",
+      "village_1_transAccelFactor_1",
+      "village_2_transAccelFactor_1",
+      "village_3_transAccelFactor_1",
+      "village_4_transAccelFactor_1",
+      "village_5_transAccelFactor_1",
+      "village_1_driftEscapeForce_1",
+      "village_2_driftEscapeForce_1",
+      "village_3_driftEscapeForce_1",
+      "village_4_driftEscapeForce_1",
+      "village_5_driftEscapeForce_1",
+      "village_1_normalBoosterTime_1",
+      "village_2_normalBoosterTime_1",
+      "village_3_normalBoosterTime_1",
+      "village_4_normalBoosterTime_1",
+      "village_5_normalBoosterTime_1",
+      "village_1_driftMaxGauge_1",
+      "village_2_driftMaxGauge_1",
+      "village_3_driftMaxGauge_1",
+      "village_4_driftMaxGauge_1",
+      "village_5_driftMaxGauge_1",
+      "desert_1_transAccelFactor_1",
+      "desert_2_transAccelFactor_1",
+      "desert_3_transAccelFactor_1",
+      "desert_4_transAccelFactor_1",
+      "desert_5_transAccelFactor_1",
+      "desert_1_driftEscapeForce_1",
+      "desert_2_driftEscapeForce_1",
+      "desert_3_driftEscapeForce_1",
+      "desert_4_driftEscapeForce_1",
+      "desert_5_driftEscapeForce_1",
+      "desert_1_normalBoosterTime_1",
+      "desert_2_normalBoosterTime_1",
+      "desert_3_normalBoosterTime_1",
+      "desert_4_normalBoosterTime_1",
+      "desert_5_normalBoosterTime_1",
+      "desert_1_driftMaxGauge_1",
+      "desert_2_driftMaxGauge_1",
+      "desert_3_driftMaxGauge_1",
+      "desert_4_driftMaxGauge_1",
+      "desert_5_driftMaxGauge_1",
+      "ice_1_transAccelFactor_1",
+      "ice_2_transAccelFactor_1",
+      "ice_3_transAccelFactor_1",
+      "ice_4_transAccelFactor_1",
+      "ice_5_transAccelFactor_1",
+      "ice_1_driftEscapeForce_1",
+      "ice_2_driftEscapeForce_1",
+      "ice_3_driftEscapeForce_1",
+      "ice_4_driftEscapeForce_1",
+      "ice_5_driftEscapeForce_1",
+      "ice_1_normalBoosterTime_1",
+      "ice_2_normalBoosterTime_1",
+      "ice_3_normalBoosterTime_1",
+      "ice_4_normalBoosterTime_1",
+      "ice_5_normalBoosterTime_1",
+      "ice_1_driftMaxGauge_1",
+      "ice_2_driftMaxGauge_1",
+      "ice_3_driftMaxGauge_1",
+      "ice_4_driftMaxGauge_1",
+      "ice_5_driftMaxGauge_1",
+      "forest_1_transAccelFactor_1",
+      "forest_2_transAccelFactor_1",
+      "forest_3_transAccelFactor_1",
+      "forest_4_transAccelFactor_1",
+      "forest_5_transAccelFactor_1",
+      "forest_1_driftEscapeForce_1",
+      "forest_2_driftEscapeForce_1",
+      "forest_3_driftEscapeForce_1",
+      "forest_4_driftEscapeForce_1",
+      "forest_5_driftEscapeForce_1",
+      "forest_1_normalBoosterTime_1",
+      "forest_2_normalBoosterTime_1",
+      "forest_3_normalBoosterTime_1",
+      "forest_4_normalBoosterTime_1",
+      "forest_5_normalBoosterTime_1",
+      "forest_1_driftMaxGauge_1",
+      "forest_2_driftMaxGauge_1",
+      "forest_3_driftMaxGauge_1",
+      "forest_4_driftMaxGauge_1",
+      "forest_5_driftMaxGauge_1",
+      "mine_1_transAccelFactor_1",
+      "mine_2_transAccelFactor_1",
+      "mine_3_transAccelFactor_1",
+      "mine_4_transAccelFactor_1",
+      "mine_5_transAccelFactor_1",
+      "mine_1_driftEscapeForce_1",
+      "mine_2_driftEscapeForce_1",
+      "mine_3_driftEscapeForce_1",
+      "mine_4_driftEscapeForce_1",
+      "mine_5_driftEscapeForce_1",
+      "mine_1_normalBoosterTime_1",
+      "mine_2_normalBoosterTime_1",
+      "mine_3_normalBoosterTime_1",
+      "mine_4_normalBoosterTime_1",
+      "mine_5_normalBoosterTime_1",
+      "mine_1_driftMaxGauge_1",
+      "mine_2_driftMaxGauge_1",
+      "mine_3_driftMaxGauge_1",
+      "mine_4_driftMaxGauge_1",
+      "mine_5_driftMaxGauge_1",
+      "world_1_transAccelFactor_1",
+      "world_2_transAccelFactor_1",
+      "world_3_transAccelFactor_1",
+      "world_4_transAccelFactor_1",
+      "world_5_transAccelFactor_1",
+      "world_1_driftEscapeForce_1",
+      "world_2_driftEscapeForce_1",
+      "world_3_driftEscapeForce_1",
+      "world_4_driftEscapeForce_1",
+      "world_5_driftEscapeForce_1",
+      "world_1_normalBoosterTime_1",
+      "world_2_normalBoosterTime_1",
+      "world_3_normalBoosterTime_1",
+      "world_4_normalBoosterTime_1",
+      "world_5_normalBoosterTime_1",
+      "world_1_driftMaxGauge_1",
+      "world_2_driftMaxGauge_1",
+      "world_3_driftMaxGauge_1",
+      "world_4_driftMaxGauge_1",
+      "world_5_driftMaxGauge_1",
+      "factory_1_transAccelFactor_1",
+      "factory_2_transAccelFactor_1",
+      "factory_3_transAccelFactor_1",
+      "factory_4_transAccelFactor_1",
+      "factory_5_transAccelFactor_1",
+      "factory_1_driftEscapeForce_1",
+      "factory_2_driftEscapeForce_1",
+      "factory_3_driftEscapeForce_1",
+      "factory_4_driftEscapeForce_1",
+      "factory_5_driftEscapeForce_1",
+      "factory_1_normalBoosterTime_1",
+      "factory_2_normalBoosterTime_1",
+      "factory_3_normalBoosterTime_1",
+      "factory_4_normalBoosterTime_1",
+      "factory_5_normalBoosterTime_1",
+      "factory_1_driftMaxGauge_1",
+      "factory_2_driftMaxGauge_1",
+      "factory_3_driftMaxGauge_1",
+      "factory_4_driftMaxGauge_1",
+      "factory_5_driftMaxGauge_1",
+      "WKC_1_transAccelFactor_1",
+      "WKC_2_transAccelFactor_1",
+      "WKC_3_transAccelFactor_1",
+      "WKC_4_transAccelFactor_1",
+      "WKC_5_transAccelFactor_1",
+      "WKC_1_driftEscapeForce_1",
+      "WKC_2_driftEscapeForce_1",
+      "WKC_3_driftEscapeForce_1",
+      "WKC_4_driftEscapeForce_1",
+      "WKC_5_driftEscapeForce_1",
+      "WKC_1_normalBoosterTime_1",
+      "WKC_2_normalBoosterTime_1",
+      "WKC_3_normalBoosterTime_1",
+      "WKC_4_normalBoosterTime_1",
+      "WKC_5_normalBoosterTime_1",
+      "WKC_1_driftMaxGauge_1",
+      "WKC_2_driftMaxGauge_1",
+      "WKC_3_driftMaxGauge_1",
+      "WKC_4_driftMaxGauge_1",
+      "WKC_5_driftMaxGauge_1",
+      "tomb_1_transAccelFactor_1",
+      "tomb_2_transAccelFactor_1",
+      "tomb_3_transAccelFactor_1",
+      "tomb_4_transAccelFactor_1",
+      "tomb_5_transAccelFactor_1",
+      "tomb_1_driftEscapeForce_1",
+      "tomb_2_driftEscapeForce_1",
+      "tomb_3_driftEscapeForce_1",
+      "tomb_4_driftEscapeForce_1",
+      "tomb_5_driftEscapeForce_1",
+      "tomb_1_normalBoosterTime_1",
+      "tomb_2_normalBoosterTime_1",
+      "tomb_3_normalBoosterTime_1",
+      "tomb_4_normalBoosterTime_1",
+      "tomb_5_normalBoosterTime_1",
+      "tomb_1_driftMaxGauge_1",
+      "tomb_2_driftMaxGauge_1",
+      "tomb_3_driftMaxGauge_1",
+      "tomb_4_driftMaxGauge_1",
+      "tomb_5_driftMaxGauge_1",
+      "moonhill_1_transAccelFactor_1",
+      "moonhill_2_transAccelFactor_1",
+      "moonhill_3_transAccelFactor_1",
+      "moonhill_4_transAccelFactor_1",
+      "moonhill_5_transAccelFactor_1",
+      "moonhill_1_driftEscapeForce_1",
+      "moonhill_2_driftEscapeForce_1",
+      "moonhill_3_driftEscapeForce_1",
+      "moonhill_4_driftEscapeForce_1",
+      "moonhill_5_driftEscapeForce_1",
+      "moonhill_1_normalBoosterTime_1",
+      "moonhill_2_normalBoosterTime_1",
+      "moonhill_3_normalBoosterTime_1",
+      "moonhill_4_normalBoosterTime_1",
+      "moonhill_5_normalBoosterTime_1",
+      "moonhill_1_driftMaxGauge_1",
+      "moonhill_2_driftMaxGauge_1",
+      "moonhill_3_driftMaxGauge_1",
+      "moonhill_4_driftMaxGauge_1",
+      "moonhill_5_driftMaxGauge_1",
+      "SNU_1_transAccelFactor_1",
+      "SNU_2_transAccelFactor_1",
+      "SNU_3_transAccelFactor_1",
+      "SNU_4_transAccelFactor_1",
+      "SNU_5_transAccelFactor_1",
+      "SNU_1_driftEscapeForce_1",
+      "SNU_2_driftEscapeForce_1",
+      "SNU_3_driftEscapeForce_1",
+      "SNU_4_driftEscapeForce_1",
+      "SNU_5_driftEscapeForce_1",
+      "SNU_1_normalBoosterTime_1",
+      "SNU_2_normalBoosterTime_1",
+      "SNU_3_normalBoosterTime_1",
+      "SNU_4_normalBoosterTime_1",
+      "SNU_5_normalBoosterTime_1",
+      "SNU_1_driftMaxGauge_1",
+      "SNU_2_driftMaxGauge_1",
+      "SNU_3_driftMaxGauge_1",
+      "SNU_4_driftMaxGauge_1",
+      "SNU_5_driftMaxGauge_1",
+      "SRB_1_transAccelFactor_1",
+      "SRB_2_transAccelFactor_1",
+      "SRB_3_transAccelFactor_1",
+      "SRB_4_transAccelFactor_1",
+      "SRB_5_transAccelFactor_1",
+      "SRB_1_driftEscapeForce_1",
+      "SRB_2_driftEscapeForce_1",
+      "SRB_3_driftEscapeForce_1",
+      "SRB_4_driftEscapeForce_1",
+      "SRB_5_driftEscapeForce_1",
+      "SRB_1_normalBoosterTime_1",
+      "SRB_2_normalBoosterTime_1",
+      "SRB_3_normalBoosterTime_1",
+      "SRB_4_normalBoosterTime_1",
+      "SRB_5_normalBoosterTime_1",
+      "SRB_1_driftMaxGauge_1",
+      "SRB_2_driftMaxGauge_1",
+      "SRB_3_driftMaxGauge_1",
+      "SRB_4_driftMaxGauge_1",
+      "SRB_5_driftMaxGauge_1",
+      "Kauzee_1_transAccelFactor_1",
+      "Kauzee_2_transAccelFactor_1",
+      "Kauzee_3_transAccelFactor_1",
+      "Kauzee_4_transAccelFactor_1",
+      "Kauzee_5_transAccelFactor_1",
+      "Kauzee_1_driftEscapeForce_1",
+      "Kauzee_2_driftEscapeForce_1",
+      "Kauzee_3_driftEscapeForce_1",
+      "Kauzee_4_driftEscapeForce_1",
+      "Kauzee_5_driftEscapeForce_1",
+      "Kauzee_1_normalBoosterTime_1",
+      "Kauzee_2_normalBoosterTime_1",
+      "Kauzee_3_normalBoosterTime_1",
+      "Kauzee_4_normalBoosterTime_1",
+      "Kauzee_5_normalBoosterTime_1",
+      "Kauzee_1_driftMaxGauge_1",
+      "Kauzee_2_driftMaxGauge_1",
+      "Kauzee_3_driftMaxGauge_1",
+      "Kauzee_4_driftMaxGauge_1",
+      "Kauzee_5_driftMaxGauge_1"
+    ],
+    "support": [
+      "start_accel_1",
+      "start_time_1",
+      "draft_charge_1",
+      "draft_accel_1",
+      "steer_1",
+      "steer_-1",
+      "corner_factor_1",
+      "antiCollideBalance_1",
+      "teambooster_time_1",
+      "slip_factor_1",
+      "itemchanger_1"
+    ]
+  }
+}
