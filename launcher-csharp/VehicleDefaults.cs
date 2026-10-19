@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace KartDriftLocal
 {
@@ -10,16 +11,34 @@ namespace KartDriftLocal
         public static void Normalize(Dictionary<string, object> preset, string identity = null)
         {
             object raw; if (!preset.TryGetValue("itemMap", out raw) || !(raw is Dictionary<string, object>)) return;
-            var items = J.D(raw); string kart = identity ?? J.Get(items, "Kart") as string; if (kart == null || !Vehicles.ContainsKey(kart)) return;
-            var defaults = J.D(Vehicles[kart]);
-            // Handles are native model defaults, not removable custom equipment.
-            if (defaults.ContainsKey("PartHandle")) items["PartHandle"] = defaults["PartHandle"];
-            // Retain the selected custom tire. Repair an empty slot or a default
-            // tire carried across from a different model using explicit IDs.
-            if (defaults.ContainsKey("PartWheel"))
+            var items = J.D(raw); string kart = identity ?? J.Get(items, "Kart") as string;
+            if (identity == null && (J.Truth(J.Get(items, "Kart")) || J.Truth(J.Get(items, "Character"))))
+                foreach (var pair in J.Map(Data, "globalDefaults")) if (!J.Truth(J.Get(items, pair.Key))) items[pair.Key] = pair.Value;
+            if (kart != null && Vehicles.ContainsKey(kart))
             {
-                string wheel = J.Get(items, "PartWheel") as string; bool wrongDefault = wheel != null && Parts.ContainsKey(wheel) && J.B(J.Map(Parts, wheel)["default"]) && !J.Same(wheel, defaults["PartWheel"]);
-                if (String.IsNullOrEmpty(wheel) || wrongDefault) items["PartWheel"] = defaults["PartWheel"];
+                var defaults = J.D(J.Copy(J.Map(Data, "common")));
+                J.Put(defaults, J.D(Vehicles[kart]));
+                NormalizeGroup(items, defaults, true, kart);
+            }
+            string character = J.Get(items, "Character") as string;
+            var characters = J.Map(Data, "characters");
+            if (character != null && characters.ContainsKey(character)) NormalizeGroup(items, J.D(characters[character]), false, character);
+        }
+        static void NormalizeGroup(Dictionary<string, object> items, Dictionary<string, object> defaults, bool vehicle, string owner)
+        {
+            foreach (var pair in items.ToArray())
+            {
+                string item = pair.Value as string;
+                if (item == null || !Parts.ContainsKey(item)) continue;
+                var part = J.Map(Parts, item);
+                bool belongs = vehicle ? item.StartsWith("Kart:", StringComparison.Ordinal) : item.StartsWith("Motion:", StringComparison.Ordinal) || item.StartsWith("Costume:", StringComparison.Ordinal);
+                if (belongs && J.B(part["default"]) && J.Same(J.Get(part, "slot"), pair.Key) && !defaults.ContainsKey(pair.Key)) items.Remove(pair.Key);
+            }
+            foreach (var pair in defaults)
+            {
+                string current = J.Get(items, pair.Key) as string;
+                bool wrongDefault = current != null && Parts.ContainsKey(current) && J.B(J.Map(Parts, current)["default"]) && (vehicle || !J.List(J.Map(Parts, current), "parents").Contains(owner));
+                if (pair.Key == "PartHandle" || String.IsNullOrEmpty(current) || wrongDefault) items[pair.Key] = pair.Value;
             }
         }
         public static void Repair(Dictionary<string, object> state)

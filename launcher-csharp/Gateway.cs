@@ -65,6 +65,12 @@ namespace KartDriftLocal
             foreach (string line in lines.Skip(1).Where(v => v.Length > 0)) { int i = line.IndexOf(':'); if (i <= 0) { Http(stream, 400); return; } string key = line.Substring(0, i).Trim(), value = line.Substring(i + 1).Trim(); if (!headers.ContainsKey(key)) headers[key] = new List<string>(); headers[key].Add(value); }
             string path = request[1].Split('?')[0];
             log("HTTP " + request[0] + " " + path);
+            if (path.StartsWith("/trialtower/", StringComparison.Ordinal))
+            {
+                if (request[0] != "GET" && request[0] != "HEAD") { Http(stream, 405); return; }
+                byte[] data; int status = TrialTower.Read(path.Substring(12), out data);
+                Http(stream, status, request[0] == "GET" ? data : null, data == null ? (int?)null : data.Length); return;
+            }
             if (path.StartsWith("/local-assets/", StringComparison.Ordinal))
             {
                 string key = path.Substring(14); if (key.Length != 32 || key.Any(c => "0123456789abcdef".IndexOf(c) < 0)) { Http(stream, 404); return; }

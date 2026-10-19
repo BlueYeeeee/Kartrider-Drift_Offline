@@ -10,3 +10,4 @@ runtime/
 settings.json
 last-run.json
 *.zip
+__pycache__/
