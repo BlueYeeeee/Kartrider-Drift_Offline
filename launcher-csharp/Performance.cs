@@ -12,6 +12,7 @@ namespace KartDriftLocal
     {
         public const string Shared = "KartDriftLocalPerformanceV1";
         public readonly Dictionary<string, object> Vehicles = J.Map(Bundle.Data("local-speed-bodies"), "vehicles");
+        readonly Dictionary<string, object> sampled = Bundle.Data("local-sampled-speed-gear-map");
         readonly List<object> definitions = J.List(J.Map(Bundle.Data("local-gear-effects"), "Normal"), "kartGearDefVector");
         readonly List<object> layout = J.A(J.Read(Bundle.Text("data/local-body-layout.json")));
         readonly Dictionary<string, object> balloons = J.Map(Bundle.Data("local-balloon-rules"), "definition");
@@ -80,9 +81,37 @@ namespace KartDriftLocal
             if (!Vehicles.ContainsKey(kart)) throw new PerformanceUnavailable("该车型尚无本地竞速性能数据");
             var source = J.D(Vehicles[kart]);
             if (J.I(upgrade["engineType"]) != J.I(J.Map(source, "upgrade")["engineType"])) throw new PerformanceUnavailable("该车型的目标引擎尚无本地性能依据");
+            if (J.Map(sampled, "vehicles").ContainsKey(kart)) return SampledBody(kart, upgrade, source);
             var old = Effects(J.Map(J.Map(J.Map(source, "upgrade"), "gearInfo"), "gearSettings"));
             var next = Effects(J.Map(J.Map(upgrade, "gearInfo"), "gearSettings")); byte[] raw = Hex(J.S(source["rawBodyHex"]));
             foreach (string key in old.Keys.Union(next.Keys)) { object a = J.Get(old, key, 0), b = J.Get(next, key, 0); if (J.N(a) != J.N(b)) Set(raw, key, a, b); }
+            return raw;
+        }
+        byte[] SampledBody(string kart, Dictionary<string, object> upgrade, Dictionary<string, object> source)
+        {
+            var ids = J.A(J.Map(sampled, "vehicles")[kart]);
+            var profile = J.Map(J.Map(sampled, "profiles"), J.S(ids[1]));
+            var settings = J.Map(J.Map(upgrade, "gearInfo"), "gearSettings");
+            var captured = J.Map(J.Map(J.Map(source, "upgrade"), "gearInfo"), "gearSettings");
+            foreach (var p in settings) if (!profile.ContainsKey(p.Key) && J.I(p.Value) != J.I(J.Get(captured, p.Key, 0)))
+                throw new PerformanceUnavailable("该固定或锁定齿轮配置未采集：" + p.Key);
+            byte[] raw = Hex(J.S(J.Map(sampled, "baselines")[J.S(ids[0])])); var written = new HashSet<string>();
+            foreach (var gear in profile)
+            {
+                long level = J.I(J.Get(settings, gear.Key, 0)); if (level == 0) continue;
+                var levels = J.Map(J.Map(J.Map(sampled, "tables"), J.S(gear.Value)), "levels");
+                if (level < 0 || !levels.ContainsKey(level.ToString())) throw new PerformanceUnavailable("该齿轮档位未采集：" + gear.Key);
+                foreach (var cell in J.D(levels[level.ToString()]))
+                {
+                    if (!written.Add(cell.Key)) throw new PerformanceUnavailable("多项齿轮影响同一字段，尚无计算顺序依据");
+                    int offset = (int)J.I(J.D(layout.Single(v => J.S(J.D(v)["name"]) == cell.Key))["offset"]);
+                    var op = J.A(cell.Value); string kind = J.S(op[0]);
+                    if (kind == "or") raw[offset] = (byte)(raw[offset] != 0 || J.Truth(op[1]) ? 1 : 0);
+                    else if (kind == "u32_add") Buffer.BlockCopy(BitConverter.GetBytes(unchecked(BitConverter.ToUInt32(raw, offset) + (uint)J.I(op[1]))), 0, raw, offset, 4);
+                    else if (kind == "f32_add") Buffer.BlockCopy(BitConverter.GetBytes((float)(BitConverter.ToSingle(raw, offset) + BitConverter.ToSingle(Hex(J.S(op[1])), 0))), 0, raw, offset, 4);
+                    else throw new PerformanceUnavailable("未知改装映射操作：" + kind);
+                }
+            }
             return raw;
         }
         public Dictionary<string, object> Payload(Dictionary<string, object> state, string kart = null)

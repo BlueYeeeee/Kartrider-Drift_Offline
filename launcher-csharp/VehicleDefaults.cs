@@ -8,7 +8,7 @@ namespace KartDriftLocal
     {
         static readonly Dictionary<string, object> Data = Bundle.Data("local-vehicle-default-parts");
         static readonly Dictionary<string, object> Vehicles = J.Map(Data, "vehicles"), Parts = J.Map(Data, "parts");
-        public static void Normalize(Dictionary<string, object> preset, string identity = null)
+        public static void Normalize(Dictionary<string, object> preset, string identity = null, bool resetDefaultWheel = false)
         {
             object raw; if (!preset.TryGetValue("itemMap", out raw) || !(raw is Dictionary<string, object>)) return;
             var items = J.D(raw); string kart = identity ?? J.Get(items, "Kart") as string;
@@ -18,13 +18,13 @@ namespace KartDriftLocal
             {
                 var defaults = J.D(J.Copy(J.Map(Data, "common")));
                 J.Put(defaults, J.D(Vehicles[kart]));
-                NormalizeGroup(items, defaults, true, kart);
+                NormalizeGroup(items, defaults, true, kart, resetDefaultWheel);
             }
             string character = J.Get(items, "Character") as string;
             var characters = J.Map(Data, "characters");
             if (character != null && characters.ContainsKey(character)) NormalizeGroup(items, J.D(characters[character]), false, character);
         }
-        static void NormalizeGroup(Dictionary<string, object> items, Dictionary<string, object> defaults, bool vehicle, string owner)
+        static void NormalizeGroup(Dictionary<string, object> items, Dictionary<string, object> defaults, bool vehicle, string owner, bool resetDefaultWheel = false)
         {
             foreach (var pair in items.ToArray())
             {
@@ -37,7 +37,9 @@ namespace KartDriftLocal
             foreach (var pair in defaults)
             {
                 string current = J.Get(items, pair.Key) as string;
-                bool wrongDefault = current != null && Parts.ContainsKey(current) && J.B(J.Map(Parts, current)["default"]) && (vehicle || !J.List(J.Map(Parts, current), "parents").Contains(owner));
+                // A selected/saved wheel remains usable even when it is another kart's default.
+                bool selectedWheel = vehicle && pair.Key == "PartWheel" && !resetDefaultWheel && current != null && Parts.ContainsKey(current) && J.Same(J.Get(J.Map(Parts, current), "slot"), "PartWheel");
+                bool wrongDefault = !selectedWheel && current != null && Parts.ContainsKey(current) && J.B(J.Map(Parts, current)["default"]) && (vehicle || !J.List(J.Map(Parts, current), "parents").Contains(owner));
                 if (pair.Key == "PartHandle" || String.IsNullOrEmpty(current) || wrongDefault) items[pair.Key] = pair.Value;
             }
         }

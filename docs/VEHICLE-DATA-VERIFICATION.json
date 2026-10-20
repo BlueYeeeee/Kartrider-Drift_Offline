@@ -1,0 +1,30 @@
+{
+  "vehicles": 249,
+  "uniqueBaselines": 77,
+  "uniqueGearTables": 9,
+  "profiles": {
+    "P05": 219,
+    "P02": 21,
+    "P01": 2,
+    "P04": 4,
+    "P03": 3
+  },
+  "verifiedSamples": 9307,
+  "verifiedWireFieldsPerSample": 66,
+  "unmergedCompactBytes": 925937,
+  "mergedCompactBytes": 60671,
+  "reductionPercent": 93.45,
+  "sourceSha256": "8c358c366cc0224a336c033204390cebf5b93d424cf8000dedf128a864ce224f",
+  "productSha256": "c30188ad2638d0bf26c23f32ef3aef15fc19568307025d4a45b7410e8b1dc4c7",
+  "independentRawCaptureReplay": {
+    "samples": 9307,
+    "fieldsPerSample": 66,
+    "effectiveBytesPerSample": 243,
+    "exactByteMatch": true,
+    "paddingExcluded": true,
+    "captureSha256": {
+      "out\\launcher-audit\\batch-two-car-full-gears-20261019\\events.jsonl": "b3bb52137bb34b153d9677942fa6635b292f723638d77206a8628a1bc220021c",
+      "out\\launcher-audit\\batch-all-gears-20261019\\events.jsonl": "11500a9cc9a73ff0aa38270819c46e6774516cea13be74be8599961bdc3c60f3"
+    }
+  }
+}

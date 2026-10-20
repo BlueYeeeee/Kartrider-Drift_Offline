@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "samples": 9307,
+  "fieldsPerSample": 66,
+  "effectiveBytesPerSample": 243,
+  "exeSha256": "96a7f232aa04774b09991a702cf7e7dd8f839630b6513fd4b76f69476b9ad46b",
+  "captureSha256": {
+    "batch-two-car-full-gears-20261019": "b3bb52137bb34b153d9677942fa6635b292f723638d77206a8628a1bc220021c",
+    "batch-all-gears-20261019": "11500a9cc9a73ff0aa38270819c46e6774516cea13be74be8599961bdc3c60f3"
+  },
+  "seconds": 39.51,
+  "scope": "Actual offline executable against all original single-gear capture bodies; no game started"
+}
