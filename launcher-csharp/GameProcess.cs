@@ -19,7 +19,12 @@ namespace KartDriftLocal
         [DllImport("kernel32.dll", SetLastError = true)] static extern uint ResumeThread(IntPtr thread);
         [DllImport("kernel32.dll")] static extern bool CloseHandle(IntPtr handle);
         [DllImport("kernel32.dll")] static extern bool TerminateProcess(IntPtr handle, uint code);
-        public static Process Start(ProcessStartInfo info)
+        public static string Quote(string value)
+        {
+            // Windows CommandLineToArgvW quoting, including backslashes before quotes/end.
+            var result = new StringBuilder("\""); int slash = 0; foreach (char c in value) { if (c == '\\') { slash++; continue; } if (c == '"') result.Append('\\', slash * 2 + 1).Append(c); else result.Append('\\', slash).Append(c); slash = 0; } return result.Append('\\', slash * 2).Append('"').ToString();
+        }
+        public static Process Start(ProcessStartInfo info, Action<Process> beforeResume = null)
         {
             // Match the proven Python launch exactly: lpApplicationName selects
             // the image; the independent command line starts with KartDrift.
@@ -31,6 +36,7 @@ namespace KartDriftLocal
                 uint flags = 0x400 | 0x4; if (info.CreateNoWindow) flags |= 0x8000000;
                 if (!CreateProcessW(info.FileName, new StringBuilder("KartDrift " + info.Arguments), IntPtr.Zero, IntPtr.Zero, false, flags, environment, info.WorkingDirectory, ref startup, out native)) throw new Win32Exception(Marshal.GetLastWin32Error());
                 result = Process.GetProcessById(native.pid); var retainedHandle = result.Handle;
+                if (beforeResume != null) beforeResume(result);
                 if (ResumeThread(native.thread) == UInt32.MaxValue) throw new Win32Exception(Marshal.GetLastWin32Error()); return result;
             }
             catch { if (native.process != IntPtr.Zero) TerminateProcess(native.process, 1); if (result != null) result.Dispose(); throw; }

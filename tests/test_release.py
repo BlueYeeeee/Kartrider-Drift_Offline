@@ -8,7 +8,7 @@ import tempfile
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-EXE = Path(os.environ.get('KARTDRIFT_TEST_EXE', ROOT / 'KartDriftLocal.exe'))
+EXE = Path(os.environ.get('KARTDRIFT_TEST_EXE', ROOT / 'build/client/KartDriftLocal.exe'))
 
 
 class ReleaseTests(unittest.TestCase):
@@ -78,7 +78,7 @@ class ReleaseTests(unittest.TestCase):
         manifest = json.loads((ROOT / 'resources/release/manifest.json').read_text(encoding='utf8'))
         raw = (ROOT / 'resources/release/responses.json').read_bytes()
         self.assertEqual(hashlib.sha256(raw).hexdigest(), manifest['templateSha256'])
-        self.assertEqual(manifest['version'], '0.2.8')
+        self.assertEqual(manifest['version'], '0.2.9')
         templates = json.loads(raw)
         reply = json.loads(templates['PqGetPublicDynData|TextLocalization.json'])
         self.assertEqual(reply['hash'], hashlib.sha256(reply['data'].encode()).hexdigest())

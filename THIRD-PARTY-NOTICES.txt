@@ -1,5 +1,8 @@
-Frida inject 17.24.0 Windows x86_64: https://github.com/frida/frida/releases/tag/17.24.0
-Source: https://github.com/frida/frida-core/tree/17.24.0
-License: frida-COPYING.txt. Native helper SHA256: 19a14d99f785f5942f68e651d1885323aef7e618723d1e75512274b3d2827843
+MinHook v1.3.4: https://github.com/TsudaKageyu/minhook/tree/v1.3.4
+License: licenses/MinHook-LICENSE.txt (source: native/vendor/minhook/LICENSE.txt).
+nlohmann JSON v3.12.0: https://github.com/nlohmann/json/tree/v3.12.0
+License: licenses/nlohmann-json-LICENSE.MIT (source: native/vendor/nlohmann/LICENSE.MIT).
+Both dependencies are statically linked into runtime/KdLocalNative.dll.
+Vendored source hashes: native/vendor/SOURCES.json. Runtime hash: embedded release/manifest.json.
 Windows .NET Framework and winsqlite3 are system components, not bundled.
 This package contains no game client. Launcher source and anonymous resources are in this repository.

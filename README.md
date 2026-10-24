@@ -1,13 +1,22 @@
 # Kartrider: Drift Offline
 
+0.2.9 单机启动器使用 `runtime/KdLocalNative.dll`，移除 Frida 运行库和兼容脚本，保留本地存档、车辆性能、语言和塔影子资源。已通过原生兼容检查及真实游戏本地登录；换车界面、完整比赛、断网冷启动及挑战之塔实玩尚未验收。本版继续作为预发布提供，实现与边界见 [原生兼容说明](native/README.md)。
+
 ## 启动方法
 
-1. 在 [Releases](https://github.com/BlueYeeeee/Kartrider-Drift_Offline/releases) 下载 0.2.8 完整压缩包并解压。
+1. 在 [Releases](https://github.com/BlueYeeeee/Kartrider-Drift_Offline/releases/tag/v0.2.9) 下载 0.2.9 完整压缩包并解压。
 2. 保留解压后的所有文件和文件夹，双击 `KartDriftLocal.exe`。
 3. 选择包含 `KartDrift` 文件夹的游戏目录，选择游戏语言。
 4. 点击“启动本地游戏”。游戏运行期间保持启动器开启，退出游戏后再关闭启动器。
 
 需要自行准备匹配版本的游戏客户端(参考链接: https://pan.baidu.com/s/1iTHawG-eX3E_amkXbt1ABw?pwd=c84q 请勿运行压缩包内的“跑2体验版启动器.1.0.0.2c.exe” 而是使用我们开源的启动器)。若提示客户端版本不匹配，请使用对应版本。
+
+## 0.2.9 更新
+
+- 用约 329 KB 的原生兼容模块替换约 91.6 MB 的 Frida 运行库，移除 7 个脚本及对应控制代码。
+- 主程序约 330 KB，含语言和 100 个原生塔影子的必需运行文件约 76.5 MB；保持原资源哈希与本地存档格式。
+- 不含联机入口、房间服务、个人存档、日志、缓存或构建中间文件。
+- 已通过 13 项单机/构建检查、372 项原生兼容检查、真实 SDK 隔离验证和独立新存档本地登录。登录验证不代表完整比赛及挑战之塔验收。
 
 ## 0.2.8 更新
 
@@ -26,10 +35,12 @@
 
 挑战之塔完整开始、结算和进度流程仍未完成；本版未重跑真实客户端四语言和赛道验收。自动测试覆盖范围见 [发布说明](CHANGELOG.md)。
 
-升级前正常退出游戏和启动器，备份旧版 `local-data` 后，将其复制到新版启动器同级目录。请保留完整 `TrialTower`、`Localization` 和 `runtime` 文件夹。
+升级前正常退出游戏和启动器，将新版解压到新目录；备份旧版 `local-data` 后，将其复制到新版启动器同级目录。请保留完整 `TrialTower`、`Localization`、`runtime` 和 `licenses` 文件夹。旧版 Frida 文件无需复制到新目录。
 
 ## 从源码构建
 
-Windows 中运行 `powershell -ExecutionPolicy Bypass -File .\rebuild.ps1`，使用系统 .NET Framework 编译器生成启动器。运行时还需按 `THIRD-PARTY-NOTICES.txt` 准备 `runtime/frida-inject.exe`。`TrialTower` 为独立原生影子文件目录，构建时无需转换格式。
+Windows 中运行 `powershell -ExecutionPolicy Bypass -File .\rebuild.ps1 -Tests`，需要 Visual C++ x64、Windows SDK 构建工具和系统 .NET Framework 编译器。依赖源码已附带，构建时校验哈希，无需下载运行库。默认在 `build/client` 生成独立测试目录，可用 `-OutputDirectory <新目录>` 更改输出位置。原目录中的旧程序和 Frida 文件不自动删除。
 
-可用 Python 3 运行 `python -m unittest discover -s tests`，检查实际 C# 存档接口、默认装备、语言数据及影子文件哈希，不启动游戏。
+运行目录需保留 `KartDriftLocal.exe`、`runtime/KdLocalNative.dll`、`Localization`、`TrialTower`、`licenses` 和第三方声明。`build/native` 为中间产物及测试程序，`LocalData.zip` 已嵌入 EXE，外部副本仅用于构建检查，均不必随运行目录分发。
+
+构建后可用 Python 3 运行 `python -m unittest discover -s tests`，检查实际 C# 存档接口、默认装备、语言数据、影子文件哈希、原生模块校验和启动约定，不启动游戏。自定义输出目录时将 `KARTDRIFT_TEST_EXE` 设为该目录的 EXE 完整路径。

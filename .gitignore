@@ -11,3 +11,5 @@ settings.json
 last-run.json
 *.zip
 __pycache__/
+build/
+licenses/

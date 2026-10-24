@@ -110,7 +110,7 @@ class VehicleDataTests(unittest.TestCase):
             text = path.read_text(encoding='utf-8-sig').lower()
             self.assertNotIn('multiplayerroom', text, path.name)
             self.assertNotIn('localendpoint.http', text, path.name)
-        with zipfile.ZipFile(ROOT / 'LocalData.zip') as bundle:
+        with zipfile.ZipFile(test_release.EXE.parent / 'LocalData.zip') as bundle:
             for name in bundle.namelist():
                 self.assertFalse(any(word in name.lower() for word in forbidden), name)
             self.assertIn('data/local-sampled-speed-gear-map.json', bundle.namelist())

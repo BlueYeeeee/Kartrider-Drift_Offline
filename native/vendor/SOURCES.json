@@ -1,0 +1,67 @@
+{
+  "minhook/include/MinHook.h": {
+    "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/v1.3.4/include/MinHook.h",
+    "sha256": "62dff05e63155c6bf8135c36a0d79dedbdcaaede9da26fe38daf0bea34323e38",
+    "bytes": 7530
+  },
+  "minhook/src/buffer.c": {
+    "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/v1.3.4/src/buffer.c",
+    "sha256": "0ab484d7870c3a8e7a3a1ee61e2070072cf445ed85b619d4c4207fed34356d99",
+    "bytes": 9814
+  },
+  "minhook/src/buffer.h": {
+    "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/v1.3.4/src/buffer.h",
+    "sha256": "9769702bd625249e59a19ede05c84365fcc7707e1fa0e5df08df42227cee13e3",
+    "bytes": 1820
+  },
+  "minhook/src/hook.c": {
+    "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/v1.3.4/src/hook.c",
+    "sha256": "edcce4c81985d7dd5b73feae96d6498c8f749b1bca4c3d2d9926ea9a17a84755",
+    "bytes": 26626
+  },
+  "minhook/src/trampoline.c": {
+    "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/v1.3.4/src/trampoline.c",
+    "sha256": "f13a169f803ff5a8e45c58ce668b4377a9878c0fc4452369b8a1325065186b2b",
+    "bytes": 10718
+  },
+  "minhook/src/trampoline.h": {
+    "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/v1.3.4/src/trampoline.h",
+    "sha256": "53ed9934492320617a27bfd952ffe7f5b7a4a1d09963d4512447082fe7b727b4",
+    "bytes": 3759
+  },
+  "minhook/src/hde/hde64.c": {
+    "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/v1.3.4/src/hde/hde64.c",
+    "sha256": "824eafa315322e6da105a7ce4ec1fc0e0adeee0106d32152fbb0b59e709bd15c",
+    "bytes": 9507
+  },
+  "minhook/src/hde/hde64.h": {
+    "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/v1.3.4/src/hde/hde64.h",
+    "sha256": "e99aa4997bda14b534c614c3d8cb78a72c4aca91a1212c8b03ec605d1d75e36e",
+    "bytes": 2602
+  },
+  "minhook/src/hde/table64.h": {
+    "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/v1.3.4/src/hde/table64.h",
+    "sha256": "b774446d2f110ce954fb0a710f4693c5562ddbd8d56fe84106f2ee80db8b50a2",
+    "bytes": 3577
+  },
+  "minhook/src/hde/pstdint.h": {
+    "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/v1.3.4/src/hde/pstdint.h",
+    "sha256": "604d1cdf45c5a95bc9cf1bbf39ca05ef83013541101d34971c5cd7577e3d5247",
+    "bytes": 1662
+  },
+  "minhook/LICENSE.txt": {
+    "url": "https://raw.githubusercontent.com/TsudaKageyu/minhook/v1.3.4/LICENSE.txt",
+    "sha256": "d5c2224982b0b95a16b098a561335fa93f3eaf4d0aa964b7843edb986df78dc8",
+    "bytes": 4365
+  },
+  "nlohmann/json.hpp": {
+    "url": "https://raw.githubusercontent.com/nlohmann/json/v3.12.0/single_include/nlohmann/json.hpp",
+    "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63",
+    "bytes": 953436
+  },
+  "nlohmann/LICENSE.MIT": {
+    "url": "https://raw.githubusercontent.com/nlohmann/json/v3.12.0/LICENSE.MIT",
+    "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603",
+    "bytes": 1076
+  }
+}

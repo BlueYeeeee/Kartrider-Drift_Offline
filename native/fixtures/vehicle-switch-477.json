@@ -1,0 +1,79 @@
+[
+  {
+    "_type": "PqItemPresetOnUpdate",
+    "itemPreset": {
+      "itemMap": {
+        "Character": "Character:100000043",
+        "Costume": "Costume:243000001",
+        "IngameEmoticon1": "emoticon:801000001",
+        "IngameEmoticon2": "emoticon:801000002",
+        "IngameEmoticon3": "emoticon:801000003",
+        "IngameEmoticon4": "emoticon:801000004",
+        "Kart": "Kart:401010017",
+        "MotionDefeat": "Motion:343020007",
+        "MotionFinish": "Motion:343010002",
+        "MotionRetire": "Motion:343010007",
+        "MotionVictory": "Motion:343020006",
+        "Balloon": "RC:100010000168",
+        "AccessoryBack": "Accessory:120010000002",
+        "PartHandle": "Kart:402010017",
+        "PartPlate": "Kart:408000005",
+        "PartWheel": "Kart:406000132",
+        "KartAura": "Kart:414000005",
+        "KartBooster": "Kart:407000092",
+        "SkidMark": "Kart:411000001"
+      },
+      "livery": {
+        "liveryId": "0",
+        "liveryUniqueId": "53ed4be84d2b4702a38ac73ff4a59bb3",
+        "liveryRevision": 0,
+        "kartId": "Kart:401010017",
+        "createTime": 0,
+        "expireTime": 0,
+        "state": 0
+      }
+    },
+    "changeUnusableItems": false,
+    "reqId": 477
+  },
+  {
+    "_type": "PrItemPresetOnUpdate",
+    "reqId": 477,
+    "result": {
+      "code": 0
+    },
+    "desc": "",
+    "itemPreset": {
+      "itemMap": {
+        "Character": "Character:100000043",
+        "Costume": "Costume:243000001",
+        "IngameEmoticon1": "emoticon:801000001",
+        "IngameEmoticon2": "emoticon:801000002",
+        "IngameEmoticon3": "emoticon:801000003",
+        "IngameEmoticon4": "emoticon:801000004",
+        "Kart": "Kart:401010017",
+        "MotionDefeat": "Motion:343020007",
+        "MotionFinish": "Motion:343010002",
+        "MotionRetire": "Motion:343010007",
+        "MotionVictory": "Motion:343020006",
+        "Balloon": "RC:100010000168",
+        "AccessoryBack": "Accessory:120010000002",
+        "PartHandle": "Kart:402010017",
+        "PartPlate": "Kart:408000071",
+        "PartWheel": "Kart:406000132",
+        "KartAura": "Kart:414000005",
+        "KartBooster": "Kart:407000006",
+        "SkidMark": "Kart:411000022"
+      },
+      "livery": {
+        "liveryId": "",
+        "liveryUniqueId": "",
+        "liveryRevision": 0,
+        "kartId": "",
+        "createTime": 0,
+        "expireTime": 0,
+        "state": 0
+      }
+    }
+  }
+]

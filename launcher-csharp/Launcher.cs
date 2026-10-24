@@ -74,7 +74,7 @@ namespace KartDriftLocal
             J.Need(File.Exists(sdk) && Hash(sdk) == J.S(manifest["sdkSha256"]), "游戏内的 nexon_api_x64.dll 缺失或版本不匹配，请使用同版本完整客户端；无需安装 Nexon 启动器。");
         }
         public static string CheckRuntime()
-        { string helper = System.IO.Path.Combine(Root, @"runtime\frida-inject.exe"); J.Need(File.Exists(helper) && Hash(helper) == NativeSession.HelperHash, "原生兼容运行库缺失或校验失败，请重新解压完整目录。"); return helper; }
+        { string library = System.IO.Path.Combine(Root, @"runtime\KdLocalNative.dll"); J.Need(File.Exists(library) && Hash(library) == J.S(J.D(J.Read(Bundle.Text("release/manifest.json")))["nativeSha256"]), "原生兼容模块缺失或校验失败，请重新解压完整目录。"); return library; }
         internal static Process StartGame(ProcessStartInfo info) { return GameProcess.Start(info); }
         public static void Run(string game, string data, bool smoke, Action<string> status, string culture = "zh-Hans")
         {
@@ -96,26 +96,30 @@ namespace KartDriftLocal
                     var info = new ProcessStartInfo(exe, "-nexonarena -serviceid:1050768515 -nexonsn:1 -sid:00000000-0000-0000-0000-000000000001 -Server:kd-live -httpproxy=\"\"") { UseShellExecute = false, WorkingDirectory = System.IO.Path.GetDirectoryName(exe) };
                     foreach (string key in info.EnvironmentVariables.Keys.Cast<string>().ToList()) if (new[] { "http_proxy", "https_proxy", "all_proxy", "no_proxy", "__compat_layer" }.Contains(key.ToLowerInvariant())) info.EnvironmentVariables.Remove(key);
                     info.EnvironmentVariables["TEMP"] = info.EnvironmentVariables["TMP"] = cache;
-                    Process gameProcess = null; NativeSession session = null;
-                    try
+                    Process gameProcess = null;
+                    using (var adapter = new NativeAdapter(runtime, J.S(J.D(J.Read(Bundle.Text("release/manifest.json")))["nativeSha256"])))
                     {
-                        gameProcess = StartGame(info); log("Owned game PID " + gameProcess.Id); status("正在本地登录…");
-                        session = new NativeSession(gameProcess.Id, runtime, cache, log); bool settled = false; var timer = Stopwatch.StartNew(); long nextCheck = 0; string last = null;
-                        while (!gameProcess.WaitForExit(250))
+                        try
                         {
-                            if (gateway.LoginComplete && !settled) { log("playtime notice settle " + J.Write(session.Call("offline_playtime_notice", "settle"))); log("analytics settle " + J.Write(session.Call("offline_analytics", "settle"))); log("local sdk state " + J.Write(session.Call("audit_reuse_ticket", "status"))); settled = true; status("本地游戏运行中，退出游戏后再关闭启动器。"); }
-                            if (timer.ElapsedMilliseconds >= nextCheck) { nextCheck = timer.ElapsedMilliseconds + 10000; try { string current = J.Write(session.Call("offline_analytics", "status")); if (current != last) { log("analytics status " + current); last = current; } } catch (Exception error) { log("analytics status unavailable: " + error.GetType().Name); } }
-                            if (smoke && gateway.LoginComplete) break;
-                            if (smoke && timer.ElapsedMilliseconds > 90000) throw new InvalidOperationException("本地登录验证超时。");
+                            adapter.Configure(info); gameProcess = GameProcess.Start(info, adapter.AttachBeforeResume);
+                            log("Owned game PID " + gameProcess.Id + "; native adapter initialized " + J.Write(adapter.Status())); status("正在本地登录…");
+                            bool settled = false; var timer = Stopwatch.StartNew();
+                            while (!gameProcess.WaitForExit(250))
+                            {
+                                adapter.ThrowIfFailed();
+                                if (gateway.LoginComplete && !settled) { adapter.Settle(); log("native adapter settled " + J.Write(adapter.Status())); settled = true; status("本地游戏运行中，退出游戏后再关闭启动器。"); }
+                                if (smoke && settled) break;
+                                if (smoke && timer.ElapsedMilliseconds > 90000) throw new InvalidOperationException("本地登录验证超时。");
+                            }
+                            J.Need(settled, "游戏尚未完成本地登录和兼容检查就退出，请查看 logs/launcher.log。");
+                            AtomicJson(System.IO.Path.Combine(data, "last-run.json"), J.M("ok", true, "loginComplete", gateway.LoginComplete, "smoke", smoke, "pid", gameProcess.Id, "native", adapter.Status()));
                         }
-                        J.Need(gateway.LoginComplete, "游戏尚未完成本地登录就退出，请查看 logs/launcher.log。");
-                        AtomicJson(System.IO.Path.Combine(data, "last-run.json"), J.M("ok", true, "loginComplete", gateway.LoginComplete, "smoke", smoke, "pid", gameProcess.Id));
-                    }
-                    finally
-                    {
-                        // A bounded diagnostic or failed startup owns this process. Stop it before detaching.
-                        if (gameProcess != null) { try { if (!gameProcess.HasExited) { gameProcess.Kill(); gameProcess.WaitForExit(10000); } } finally { gameProcess.Dispose(); } }
-                        if (session != null) session.Dispose();
+                        finally
+                        {
+                            // Stop the owned game before releasing its compatibility status mapping.
+                            if (gameProcess != null) { try { if (!gameProcess.HasExited) { gameProcess.Kill(); gameProcess.WaitForExit(10000); } } finally { gameProcess.Dispose(); } }
+                            log("native adapter final " + J.Write(adapter.Status()));
+                        }
                     }
                 }
             }

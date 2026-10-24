@@ -16,12 +16,12 @@ namespace KartDriftLocal
             {"本地游戏运行中，退出游戏后再关闭启动器。", "Game running. Exit the game before closing this launcher."},
             {"游戏已退出，存档保留。", "Game closed. Your save data has been kept."},
             {"本地登录验证超时。", "Local sign-in timed out."},
-            {"游戏尚未完成本地登录就退出，请查看 logs/launcher.log。", "The game closed before local sign-in completed. See logs/launcher.log."},
+            {"游戏尚未完成本地登录和兼容检查就退出，请查看 logs/launcher.log。", "The game closed before local sign-in and compatibility checks completed. See logs/launcher.log."},
             {"游戏或第三方启动器正在运行，请先正常退出。", "The game or another launcher is running. Please close it first."},
             {"没有找到游戏，请选择包含 KartDrift 文件夹的游戏目录。", "Game not found. Select the directory containing the KartDrift folder."},
             {"客户端版本不匹配，未启动游戏或修改配置。", "Client version mismatch. The game was not started and settings were not changed."},
             {"游戏内的 nexon_api_x64.dll 缺失或版本不匹配，请使用同版本完整客户端；无需安装 Nexon 启动器。", "The game's nexon_api_x64.dll is missing or incompatible. Use the complete matching client; Nexon Launcher is not required."},
-            {"原生兼容运行库缺失或校验失败，请重新解压完整目录。", "The native runtime is missing or failed verification. Extract the complete package again."},
+            {"原生兼容模块缺失或校验失败，请重新解压完整目录。", "The native compatibility module is missing or failed verification. Extract the complete package again."},
             {"旧启动器仍有待恢复的连接配置，请先运行旧版完成恢复。", "The previous launcher has pending connection settings. Run it to finish recovery first."},
             {"游戏连接配置为只读，请先恢复可写权限。", "Game connection settings are read-only. Restore write access first."},
             {"配置恢复路径不一致。", "The settings recovery path does not match."},
@@ -81,7 +81,7 @@ namespace KartDriftLocal
                 running = true; start.Enabled = browse.Enabled = path.Enabled = gameLanguage.Enabled = false;
                 Task.Run(() => { try { Run(selected, Root, false, update, culture); } catch (Exception error) { update(error.Message); } finally { window.BeginInvoke((Action)(() => { running = false; start.Enabled = browse.Enabled = path.Enabled = gameLanguage.Enabled = true; })); } });
             };
-            folder.Click += delegate { string save = Path.Combine(Root, "local-data"); Directory.CreateDirectory(save); System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo("explorer.exe", NativeSession.Quote(save)) { UseShellExecute = true }); };
+            folder.Click += delegate { string save = Path.Combine(Root, "local-data"); Directory.CreateDirectory(save); System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo("explorer.exe", GameProcess.Quote(save)) { UseShellExecute = true }); };
             window.FormClosing += delegate(object sender, FormClosingEventArgs e) {
                 if (running) { e.Cancel = true; MessageBox.Show(window, english ? "Exit the game first and wait for local saving to finish." : "请先正常退出游戏，等待本地服务保存完成。", english ? "Game is running" : "游戏仍在运行"); }
             };

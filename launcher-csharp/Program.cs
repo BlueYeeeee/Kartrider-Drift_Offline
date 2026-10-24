@@ -1,9 +1,7 @@
 using System;
 using System.IO;
 using System.Text;
-using System.Threading;
 using System.Diagnostics;
-using System.Collections.Generic;
 
 namespace KartDriftLocal
 {
@@ -22,11 +20,10 @@ namespace KartDriftLocal
                     Console.SetOut(new StreamWriter(Console.OpenStandardOutput(), new UTF8Encoding(false)) { AutoFlush = true });
                     Console.SetError(new StreamWriter(Console.OpenStandardError(), new UTF8Encoding(false)) { AutoFlush = true });
                 }
-                if (args.Length == 1 && args[0] == "--owned-test-target") { Thread.Sleep(60000); return 0; }
                 if (args.Length == 2 && args[0] == "--write-launch-state") { Launcher.AtomicJson(args[1], J.M("command", Environment.CommandLine, "cwd", Environment.CurrentDirectory, "marker", Environment.GetEnvironmentVariable("KARTDRIFT_LAUNCH_TEST"))); return 0; }
                 if (args.Length == 2 && args[0] == "--launch-contract")
                 {
-                    var info = new ProcessStartInfo(Process.GetCurrentProcess().MainModule.FileName, "--write-launch-state " + NativeSession.Quote(args[1])) { UseShellExecute = false, CreateNoWindow = true, WorkingDirectory = Path.GetDirectoryName(args[1]) }; info.EnvironmentVariables["KARTDRIFT_LAUNCH_TEST"] = "中文环境检查";
+                    var info = new ProcessStartInfo(Process.GetCurrentProcess().MainModule.FileName, "--write-launch-state " + GameProcess.Quote(args[1])) { UseShellExecute = false, CreateNoWindow = true, WorkingDirectory = Path.GetDirectoryName(args[1]) }; info.EnvironmentVariables["KARTDRIFT_LAUNCH_TEST"] = "中文环境检查";
                     using (var child = Launcher.StartGame(info)) { J.Need(child.WaitForExit(10000) && child.ExitCode == 0, "Owned launch probe failed"); }
                     var result = J.D(J.Read(File.ReadAllText(args[1], Encoding.UTF8))); J.Need(J.S(result["command"]).StartsWith("KartDrift ", StringComparison.Ordinal), "Launch contract differs: argv[0] must be KartDrift"); J.Need(J.S(result["marker"]) == "中文环境检查", "Child environment changed"); return 0;
                 }
@@ -35,10 +32,8 @@ namespace KartDriftLocal
                 if (args.Length == 2 && args[0] == "--self-test") { SelfTest(args[1]); return 0; }
                 if (args.Length == 3 && args[0] == "--serve-test")
                 { var store = new ProfileStore(args[1], Bundle.Templates()); store.Performance = new Performance(J.S(J.D(J.Read(J.S(Bundle.Templates()["PqLogin"])))["accountId"])); using (var gateway = new Gateway(store, Int32.Parse(args[2]), message => Console.Error.WriteLine(message))) { Console.WriteLine(J.Write(J.M("port", gateway.Port, "pingPort", gateway.PingPort))); Console.Out.Flush(); Console.ReadLine(); } return 0; }
-                if (args.Length == 3 && args[0] == "--native-test") { NativeTest(args[1], args[2]); return 0; }
-                if (args.Length == 3 && args[0] == "--notice-contract") { NoticeTest(args[1], args[2]); return 0; }
-                if (args.Length == 5 && args[0] == "--sdk-contract") { SdkTest(args[1], args[2], args[3], args[4]); return 0; }
-                if (args.Length >= 1 && (args[0] == "--worker" || args[0] == "--smoke-test")) { J.Need(args.Length == 3 || args.Length == 4, "Expected game, data directory and optional culture"); Launcher.Run(args[1], args[2], args[0] == "--smoke-test", message => Console.WriteLine(message), args.Length == 4 ? args[3] : "zh-Hans"); return 0; }
+                if (args.Length == 4 && args[0] == "--native-sdk-check") { SdkTest(args[1], args[2], args[3]); return 0; }
+                if (args.Length >= 1 && (args[0] == "--worker" || args[0] == "--smoke-test")) { J.Need(args.Length == 3 || args.Length == 4, "Expected game, data directory and optional culture"); if (args[0] == "--smoke-test") SmokeTest(args[1], args[2], args.Length == 4 ? args[3] : "zh-Hans"); else Launcher.Run(args[1], args[2], false, message => Console.WriteLine(message), args.Length == 4 ? args[3] : "zh-Hans"); return 0; }
                 if (args.Length == 2 && args[0] == "--check") { Console.WriteLine(J.Write(J.M("game", Launcher.CheckGame(args[1]), "runtime", Launcher.CheckRuntime()))); return 0; }
                 if (args.Length != 0) throw new ArgumentException("Unknown command"); Launcher.Ui(); return 0;
             }
@@ -68,7 +63,6 @@ namespace KartDriftLocal
                 J.Need(J.S(state["riderName"]) == "LocalDriver" && J.Map(state, "records").Count == 0 && J.List(state, "liveryVector").Count == 0 && J.List(state, "liveryStickerVector").Count == 0, "Anonymous seed failed");
                 foreach (var value in J.Map(state, "ownKartsUpgradeInfo").Values) J.Need(J.I(J.Map(J.D(value), "gearInfo")["totalGearCount"]) == 51, "Gear budget failed");
                 var perf = new Performance(J.S(J.D(J.Read(J.S(templates["PqLogin"])))["accountId"])); perf.Payload(state);
-                foreach (string name in NativeSession.Modules) Bundle.Text("tools/" + name + ".js");
                 string text = "便携 C# 中文检查"; J.Need(Codec.Decode(Codec.Encode(text)) == text, "Protocol codec failed");
                 using (var label = new System.Windows.Forms.Label { Text = text }) J.Need(label.Text == text, "Windows Forms dependency failed");
                 string config = Path.Combine(directory, "Game.ini"); byte[] original = Encoding.UTF8.GetBytes("; 配置原文\r\n[User]\r\nValue=1\r\n"); File.WriteAllBytes(config, original);
@@ -89,31 +83,35 @@ namespace KartDriftLocal
             }
             finally { Directory.Delete(directory, true); }
         }
-        static void NativeTest(string runtime, string cache)
+        static void SdkTest(string sdk, string probe, string report)
         {
-            var sources = new Dictionary<string, string> { { "one", "let privateValue=7;rpc.exports={sum(a,b){return a+b+privateValue;}};send({kind:'one-loaded'});" }, { "two", "let privateValue=11;rpc.exports={sum(a,b){return a+b+privateValue;}};send({kind:'two-loaded'});" } };
-            using (var target = Process.Start(new ProcessStartInfo(Process.GetCurrentProcess().MainModule.FileName, "--owned-test-target") { UseShellExecute = false, CreateNoWindow = true }))
+            var manifest = J.D(J.Read(Bundle.Text("release/manifest.json")));
+            J.Need(Launcher.Hash(sdk) == J.S(manifest["sdkSha256"]), "SDK fixture hash mismatch");
+            J.Need(Path.GetFileName(probe) == "NativeSdkProbe.exe", "Use the native SDK fixture");
+            using (var adapter = new NativeAdapter(Launcher.CheckRuntime(), J.S(manifest["nativeSha256"])))
             {
-                NativeSession session = null; try { session = new NativeSession(target.Id, runtime, cache, message => Console.Error.WriteLine(message), sources); J.Need(J.I(session.Call("one", "sum", 2, 3)) == 12 && J.I(session.Call("two", "sum", 2, 3)) == 16, "Module isolation failed"); Console.WriteLine(J.Write(J.M("ok", true, "targetPid", target.Id, "modules", 2, "rpc", true))); }
-                finally { if (!target.HasExited) { target.Kill(); target.WaitForExit(5000); } if (session != null) session.Dispose(); }
+                Process process = null;
+                try
+                {
+                    var info = new ProcessStartInfo(Path.GetFullPath(probe), GameProcess.Quote(Path.GetFullPath(sdk)) + " " + GameProcess.Quote(Path.GetFullPath(report))) { UseShellExecute = false, CreateNoWindow = true, WorkingDirectory = Path.GetDirectoryName(Path.GetFullPath(probe)) };
+                    adapter.Configure(info); process = GameProcess.Start(info, adapter.AttachBeforeResume);
+                    J.Need(process.WaitForExit(15000), "Native SDK fixture timed out"); adapter.ThrowIfFailed(); J.Need(process.ExitCode == 0, "Native SDK fixture failed: " + process.ExitCode);
+                    var result = J.D(J.Read(File.ReadAllText(report))); result["native"] = adapter.Status(); result["gameClientStarted"] = false;
+                    Launcher.AtomicJson(report, result); Console.WriteLine(J.Write(result));
+                }
+                finally { if (process != null) { try { if (!process.HasExited) { process.Kill(); process.WaitForExit(10000); } } finally { process.Dispose(); } } }
             }
         }
-        static void SdkTest(string runtime, string cache, string sdk, string probe)
+        static void SmokeTest(string game, string data, string culture)
         {
-            var sources = new Dictionary<string, string> { { "audit_reuse_ticket", Bundle.Text("tools/audit_reuse_ticket.js") }, { "sdk_probe", "const sdkPath=" + J.Write(sdk) + ";\n" + File.ReadAllText(probe, Encoding.UTF8) } };
-            using (var target = Process.Start(new ProcessStartInfo(Process.GetCurrentProcess().MainModule.FileName, "--owned-test-target") { UseShellExecute = false, CreateNoWindow = true }))
+            string settings = Path.Combine(Path.GetDirectoryName(Launcher.Config), "GameUserSettings.ini");
+            byte[] before = File.Exists(settings) ? File.ReadAllBytes(settings) : null;
+            var attributes = before == null ? FileAttributes.Normal : File.GetAttributes(settings);
+            try { Launcher.Run(game, data, true, message => Console.WriteLine(message), culture); }
+            finally
             {
-                NativeSession session = null; try { session = new NativeSession(target.Id, runtime, cache, message => Console.Error.WriteLine(message), sources); var result = J.D(session.Call("sdk_probe", "run")); Console.WriteLine(J.Write(result)); J.Need(J.Truth(result["initialized"]) && J.I(result["dependencyAttempts"]) == 0 && J.B(result["ticketMatches"]) && J.Truth(result["shutdown"]), "Local SDK still requires installed Nexon runtime"); }
-                finally { if (!target.HasExited) { target.Kill(); target.WaitForExit(5000); } if (session != null) session.Dispose(); }
-            }
-        }
-        static void NoticeTest(string runtime, string cache)
-        {
-            var sources = new Dictionary<string, string> { { "offline_playtime_notice", Bundle.Text("tools/offline_playtime_notice.js") } };
-            using (var target = Process.Start(new ProcessStartInfo(Process.GetCurrentProcess().MainModule.FileName, "--owned-test-target") { UseShellExecute = false, CreateNoWindow = true }))
-            {
-                NativeSession session = null; try { session = new NativeSession(target.Id, runtime, cache, message => Console.Error.WriteLine(message), sources); var result = J.D(session.Call("offline_playtime_notice", "probe")); Console.WriteLine(J.Write(result)); J.Need(J.I(result["timerCount"]) == 0 && J.I(result["otherCallerCount"]) == 1 && J.I(result["unchangedTypes"]) == 255 && J.I(result["blocked"]) == 1, "PlayTime filter affected the wrong notification path"); }
-                finally { if (!target.HasExited) { target.Kill(); target.WaitForExit(5000); } if (session != null) session.Dispose(); }
+                if (before == null) { if (File.Exists(settings)) File.Delete(settings); }
+                else { File.WriteAllBytes(settings, before); File.SetAttributes(settings, attributes); }
             }
         }
         static void Rpc(string path)
