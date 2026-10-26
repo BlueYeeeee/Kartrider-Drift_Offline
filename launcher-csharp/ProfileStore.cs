@@ -56,7 +56,8 @@ namespace KartDriftLocal
                         var defaults = sampledVehicles.ContainsKey(pair.Key)
                             ? J.Map(J.Map(J.Map(J.Map(sampledVehicles, pair.Key), "upgrade"), "gearInfo"), "gearSettings")
                             : J.Map(J.D(definition), "defaults");
-                        foreach (var rule in GearRules) if (!J.B(J.D(rule.Value)["tunable"])) settings[rule.Key] = J.Copy(defaults[rule.Key]);
+                        // Negative native defaults mark locked traits, retained from verified captures.
+                        foreach (var rule in GearRules) if (!J.B(J.D(rule.Value)["tunable"]) || J.I(J.Map(J.D(definition), "defaults")[rule.Key]) < 0) settings[rule.Key] = J.Copy(defaults[rule.Key]);
                     }
                     SyncRankName(state);
                     RepairAssets(db, state);

@@ -78,7 +78,7 @@ class ReleaseTests(unittest.TestCase):
         manifest = json.loads((ROOT / 'resources/release/manifest.json').read_text(encoding='utf8'))
         raw = (ROOT / 'resources/release/responses.json').read_bytes()
         self.assertEqual(hashlib.sha256(raw).hexdigest(), manifest['templateSha256'])
-        self.assertEqual(manifest['version'], '0.2.9')
+        self.assertEqual(manifest['version'], '0.2.10')
         templates = json.loads(raw)
         reply = json.loads(templates['PqGetPublicDynData|TextLocalization.json'])
         self.assertEqual(reply['hash'], hashlib.sha256(reply['data'].encode()).hexdigest())
