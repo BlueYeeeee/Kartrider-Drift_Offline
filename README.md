@@ -1,15 +1,20 @@
 # Kartrider: Drift Offline
 
-0.2.11 精简大厅活动横幅、替换联名广告配置，并清空宝石祈愿活动入口列表。沿用 0.2.10 的存档和车辆修复；本版继续作为预发布提供，游戏内显示和入口效果尚未验收，实现与边界见 [原生兼容说明](native/README.md)。
+0.2.12 更新英文游戏文本，与联机启动器使用同一份已核验英文资源。沿用 0.2.11 的大厅清理及存档、车辆逻辑；本版继续作为预发布，游戏内英文显示尚未全面验收。实现与边界见 [原生兼容说明](native/README.md)。
 
 ## 启动方法
 
-1. 在 [Releases](https://github.com/BlueYeeeee/Kartrider-Drift_Offline/releases/tag/v0.2.11) 下载 0.2.11 完整压缩包并解压。
+1. 在 [Releases](https://github.com/BlueYeeeee/Kartrider-Drift_Offline/releases/tag/v0.2.12) 下载 0.2.12 完整压缩包并解压。
 2. 保留解压后的所有文件和文件夹，双击 `KartDriftLocal.exe`。
 3. 选择包含 `KartDrift` 文件夹的游戏目录，选择游戏语言。
 4. 点击“启动本地游戏”。游戏运行期间保持启动器开启，退出游戏后再关闭启动器。
 
 需要自行准备匹配版本的游戏客户端(参考链接: https://pan.baidu.com/s/1iTHawG-eX3E_amkXbt1ABw?pwd=c84q 请勿运行压缩包内的“跑2体验版启动器.1.0.0.2c.exe” 而是使用我们开源的启动器)。若提示客户端版本不匹配，请使用对应版本。
+
+## 0.2.12 更新
+
+- 同步新版英文文本，共更新 3,459 条英文内容。
+- 同步英文资源 SHA256，保留原资源键和源哈希。
 
 ## 0.2.11 更新
 
